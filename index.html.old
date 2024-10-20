@@ -11,16 +11,15 @@
     <!--link de css-->
     <link rel="stylesheet" href="../html/css/style.css">
 
-    
-
-    
-</head>
+    </head>
 <body>
-
+    
     <!--cabecera-->
     <header>
+        <!--Apliqué bts al título principal-->
+        
         <div><img class="logo-principal" src="../html/assets/logo-suculenta.jpg" width="100px" alt="logo-suculentas-fla">
-            <h1 class="titulos-principales">Suculentas-Fla</h1></div>
+            <h1 class="titulos-principales text-success">Suculentas-Fla</h1></div>
        
 
         <!--links-->
