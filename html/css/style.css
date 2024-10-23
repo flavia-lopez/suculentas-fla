@@ -210,12 +210,12 @@ form .formulario-display{
          /*modo mobile first*/
 
 @media (min-widht: 768px){
-    *{ paddin: 0;
+    *{ padding: 0;
         margin: 0;}
         ul li{ display:none}
         section ul li .lista-plantas{ display: none}
 
-        .fotos-suculentas{ widht: 30%}
+        .fotos-suculentas{ width: 30%}
 
         promocion-1 bg-dark bg-gradient{ text-align: center;}
 
