@@ -1,0 +1,230 @@
+
+body{ background-color: greenyellow;
+}
+
+h1{color: blue;
+text-align: center;
+font-style: oblique;
+font-size: 30;
+font-weight: bold;
+}
+
+.promocion-1{color: red;
+background-color: black;
+text-align: center;
+border-radius: 5px;
+margin: 5px;
+padding: 10px;
+}
+
+.promocion-1 span {
+    font-weight: bold;
+    font-style:italic;
+    text-decoration: underline;
+    
+}
+
+.parrafo-promociones{color: lightcoral;
+background-color: black;
+font-size:30px0;
+}
+
+#cactus-id{color:rgb(186, 226, 43);
+    background-color: rgb(35, 19, 105);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{background-color: blueviolet;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;}
+
+    ul{list-style: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:crimson}
+
+/*lista de navegación*/
+
+
+ul {list-style: none;
+text-align: center;
+display: flex;
+padding: 15px; 
+justify-content: space-between;
+
+}
+
+ul li{ margin: 10px
+}
+
+a{text-decoration: none;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: forestgreen;
+font-size: large;
+font-weight: bolder;}
+
+/* Imágenes */
+
+
+img{ width: 300px;
+}
+
+.img-logos-envio{ width:60px;}
+
+.logo-principal{ width: 100px;}
+
+/*Apliqué al body una tipografía Google-fonts*/
+
+body{
+        font-family: "Didact Gothic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+/*Apliqué a los títulos principales una tipografía local*/
+
+     main .titulos-principales{
+        font-family: fantasy;
+        font-style: oblique; 
+        font-weight: lighter;  }
+
+        /*Aplico Grids a las imágenes de la pagina inicial*/
+
+        .fotos-suculentas{
+            border: 2px solid violet;
+            display:grid;
+            margin:70px;
+            padding:25px;
+            grid-template-columns:repeat(3, 1fr);
+            grid-template-rows:repeat(2 150px);
+            grid-template-areas:"cactus suculentas plantas-de-interior"
+            "cactus suculentas plantas-de-interior"
+            "macetas quimicos-fertilizantes quimicos-fertilizantes";
+            gap:35px; 
+        }
+
+        /*Aplico grid a la pagina de productos*/
+
+        .cactus{
+            grid-area: cactus;
+        }
+        .suculentas{ 
+            grid-area: suculentas;
+        }
+        .plantas-de-interior{
+            grid-area: plantas-de-interior;
+           
+        }
+        .macetas{
+            
+            grid-area: macetas;
+
+        }
+        .quimicos-fertilizantes{
+            grid-area: quimicos-fertilizantes;
+        }
+
+        .productos-en-venta{
+            border: 2px solid violet;
+            display:grid;
+            margin:70px;
+            grid-template-columns:repeat(2, 1fr);
+            grid-template-rows:repeat(3, 300px);
+            grid-template-areas: "astrophytum-asterias mammilaria"
+            "astrophytum-asterias mammilaria"
+            "stenocactus astrophytum-myriostigma"
+            "mostrar-mas-productos mostrar-mas-productos"
+            ;
+            gap: 35px;
+        }
+        .astrophytum-asterias{grid-area: "astrophytum-asterias";
+
+        }
+        .mammilaria{ grid-area:"mammilaria";
+
+        }
+        .stenocactus{ grid-area: "stenocactus";
+
+        }
+        .astrophytum-myriostigma{ grid-area: "astrophytum-myriostigma";
+
+        }
+        .mostrar-mas-productos{ grid-area: "mostrar-mas-productos";}
+
+
+        footer{
+            margin-top:20px;
+            display: flex;
+            padding: 10px
+            
+        }
+
+        footer .instagram-facebook .ul .li{
+            display:flex;
+            text-align: center;
+            padding: 15px; 
+            justify-content: space-between;
+        }
+
+/*página de iniciar sesion*/
+
+form .formulario-display{
+    display:flex
+
+
+}
+
+
+       .formulario-login{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        padding: 10%;
+    
+        
+       }
+
+       .boton-iniciar-sesion{
+        background-color: green;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        padding: 5px 10px;
+        border-radius: 10px;
+         }
+         
+         /*Aplico speudoclases al boton iniciar sesion y a la lista de navegacion*/
+
+        .boton-iniciar-sesion:hover{
+            background-color: darkolivegreen;
+         }
+
+        a:hover{
+            color:rgb(10, 241, 68);
+         }
+
+         a:visited{
+            color: lawngreen;
+         }
+
+         /*modo mobile first*/
+
+@media (min-widht: 768px){
+    *{ padding: 0;
+        margin: 0;}
+        ul li{ display:none}
+        section ul li .lista-plantas{ display: none}
+
+        .fotos-suculentas{ width: 30%}
+
+        promocion-1 bg-dark bg-gradient{ text-align: center;}
+
+        .instagram-facebook{ display: none}
+        .modo-pago-envios { display: none }
+
+        
+
+
+}
+
+
