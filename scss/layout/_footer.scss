@@ -1,0 +1,17 @@
+
+footer{
+    margin-top:20px;
+    display: flex;
+    padding: 10px;
+
+    .instagram-facebook{
+        ul{
+            li{
+                display:flex;
+                text-align: center;
+                padding: 15px; 
+                justify-content: space-between; 
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+//hover al boton de iniciar sesion//
+
+&:hover{
+    background-color: darkolivegreen;
+ }
+
+ //hover a los enlaces de la lista de navegacion de la pagina iniciar sesion//
+
+ a{
+    &:hover{
+    color:rgb(10, 241, 68);}
+    &:visited{
+    color: lawngreen;
+ }
+}
