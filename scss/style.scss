@@ -1,50 +1,6 @@
 @import "base/reset.scss"
 @import "layout/header.scss"
+@import "layout/main.scss"
 
-main{
-    section{ div{ .promocion-1{color: red;
-        background-color: black;
-        text-align: center;
-        border-radius: 5px;
-        margin: 5px;
-        padding: 10px;
-        } 
-
-    }
-    span {
-        font-weight: bold;
-        font-style:italic;
-        text-decoration: underline;
-        
-    } 
-    .lista-plantas{
-        display:flex;
-        list-style: none;
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 5rem;
-        color:black
-        }
-    }
-    //grid en las fotos de la pagina principal//
-    .foto-suculentas{
-        border: 2px solid violet;
-        display:grid;
-        margin:70px;
-        padding:25px;
-        grid-template-columns:repeat(3, 1fr);
-        grid-template-rows:repeat(2 150px);
-        grid-template-areas:"cactus suculentas plantas-de-interior"
-        "cactus suculentas plantas-de-interior"
-        "macetas quimicos-fertilizantes quimicos-fertilizantes";
-        gap:35px; 
-    }
-
-
-
-
-}
-
-
-
+    
 
