@@ -1,0 +1,16 @@
+
+section{
+    .titulo-promociones{
+        .parrafo-promociones{
+            @extend .promocion-1;
+        }
+    }
+    #cactus-id {
+
+        @extend .promocion-1;
+    }
+    h3{
+
+        @extend .promocion-1;
+    }
+}

@@ -39,28 +39,15 @@ main{
 section{
     .titulo-promociones{
         .parrafo-promociones{
-            color: lightcoral;
-            background-color: black;
-            text-align: center;
-            border-radius: 5px;
-            margin: 5px;
-            padding: 10px;
+            @extend .promocion-1;
         }
     }
     #cactus-id {
-        color: lightcoral;
-        background-color: black;
-        text-align: center;
-        border-radius: 5px;
-        margin: 5px;
-        padding: 10px;
+
+        @extend .promocion-1;
     }
     h3{
-        color: lightcoral;
-        background-color: black;
-        text-align: center;
-        border-radius: 5px;
-        margin: 5px;
-        padding: 10px;  
+
+        @extend .promocion-1;
     }
 }
