@@ -1,4 +1,8 @@
-main{
+@import "utilities/extend.scss";
+
+
+
+main {
     .promocion-1{color: lightcoral;
         background-color: black;
         text-align: center;
@@ -34,20 +38,4 @@ main{
         "macetas quimicos-fertilizantes quimicos-fertilizantes";
         gap:35px; 
 }
-}
-
-section{
-    .titulo-promociones{
-        .parrafo-promociones{
-            @extend .promocion-1;
-        }
-    }
-    #cactus-id {
-
-        @extend .promocion-1;
-    }
-    h3{
-
-        @extend .promocion-1;
-    }
 }
