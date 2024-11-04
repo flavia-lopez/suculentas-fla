@@ -1,1 +1,35 @@
-body{ background-color: greenyellow;}
+body{ background-color: greenyellow;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;}
+
+      header, main, footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    h2 {
+        font-size: 1.2em;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+
+    @media (min-width: 460px){
+        *{ padding: 0;
+            margin: 0;}
+            ul li{ display:none ;}
+            section ul li .lista-plantas{ display: none;}
+    
+            .fotos-suculentas{ width: 30% ;}
+    
+            promocion-1 bg-dark bg-gradient{ text-align: center;}
+    
+            .instagram-facebook{ display: none;}
+            .modo-pago-envios { display: none ;}
+        }

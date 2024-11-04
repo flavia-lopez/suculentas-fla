@@ -1,9 +1,12 @@
 @import "../layout/main.scss";
 
 section{
-    .titulo-promociones{
-        .parrafo-promociones{
-            @extend .promocion-1;
+    h2{
+        .titulo-promociones{
+            .parrafo-promociones{
+                @extend .promocion-1;
+    }
+ 
         }
     }
     #cactus-id {

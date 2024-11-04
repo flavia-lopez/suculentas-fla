@@ -1,10 +1,12 @@
 @import "utilities/extend.scss";
+@import "utilities/variables.scss";
 
 
 
 main {
     .promocion-1{color: lightcoral;
-        background-color: black;
+        background-color: $background-black;
+        font-family: $font-arial;
         text-align: center;
         border-radius: 5px;
         margin: 5px;
@@ -19,9 +21,9 @@ main {
         display:flex;
         list-style: none;
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family:$font-arial;
         font-size: 5rem;
-        color:black;
+        color: $color-black;
         }
     
     //grid en las fotos de la pagina principal//
@@ -38,4 +40,76 @@ main {
         "macetas quimicos-fertilizantes quimicos-fertilizantes";
         gap:35px; 
 }
+}
+    //Aplico grid a la pagina de productos//
+
+.text-success-emphasis{
+
+
+        .cactus{
+            grid-area: cactus;
+        }
+        .suculentas{ 
+            grid-area: suculentas;
+        }
+        .plantas-de-interior{
+            grid-area: plantas-de-interior;
+           
+        }
+        .macetas{
+            
+            grid-area: macetas;
+
+        }
+        .quimicos-fertilizantes{
+            grid-area: quimicos-fertilizantes;
+        }
+
+        .productos-en-venta{
+            border: 2px solid violet;
+            display:grid;
+            margin:70px;
+            grid-template-columns:repeat(2, 1fr);
+            grid-template-rows:repeat(3, 300px);
+            grid-template-areas: "astrophytum-asterias mammilaria"
+            "astrophytum-asterias mammilaria"
+            "stenocactus astrophytum-myriostigma"
+            "mostrar-mas-productos mostrar-mas-productos"
+            ;
+            gap: 35px;
+        }
+        .astrophytum-asterias{grid-area: "astrophytum-asterias";
+
+        }
+        .mammilaria{ grid-area:"mammilaria";
+
+        }
+        .stenocactus{ grid-area: "stenocactus";
+
+        }
+        .astrophytum-myriostigma{ grid-area: "astrophytum-myriostigma";
+
+        }
+        .mostrar-mas-productos{ grid-area: "mostrar-mas-productos";}
+}
+
+//main de pagina de contacto//
+
+.pagina-de-contacto{
+    .pagina-de-contacto{
+        color: $color-black
+        font-family $font-arial;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 10px;
+    }
+}
+
+//main de como comprar//
+.como-comprar{
+    color:$color-black;
+    font-family: $font-arial;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px;
 }
