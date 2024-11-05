@@ -1,8 +1,11 @@
-@import "base/reset.scss";
-@import "layout/header.scss";
-@import "layout/main.scss";
-@import "layout/footer.scss";
-@import "componentes/botonesyformulario-iniciarsesion.scss";
-@import "componentes/pseudoclases.scss";  
-@import "utilities/extend.scss" ;
+@import "utilities/_variables.scss";
+@import "utilities/_mixins.scss";
+@import "utilities/_extend.scss";
+@import "base/_reset.scss";
+@import "layout/_header.scss";
+@import "layout/_main.scss";
+@import "layout/_footer.scss";
+@import "componentes/_botonesyformulario-iniciar-sesion";
+@import "componentes/_pseudoclases.scss";  
+
 
