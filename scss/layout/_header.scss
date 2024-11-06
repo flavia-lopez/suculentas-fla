@@ -2,18 +2,26 @@
 header{
     .suculentas-fla-logo{
         display:flex ;
-        h1{color: blue;
+    }   
+    .titulo-principal{
+            color: blue;
             text-align: center;
             font-family: $font-arial;
             font-style: oblique;
             font-size: 30;
             font-weight: bold;
             align-items: center;
-            }
-            .logo-prinipal{
-                width: 50px ;
-                align-items: center;
+            
+
     }
+
+    .logo-prinipal{
+        img{
+            width: 50px ;
+            align-items: center;
+    }
+        }
+      
 }
 
     .link-iniciar-sesion{
@@ -37,6 +45,6 @@ header{
               
             }
         }
-    }
+    
 
     
