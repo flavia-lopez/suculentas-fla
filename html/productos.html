@@ -11,23 +11,25 @@
 </head>
 <body>
     <header>
-        <img src="../html/assets/logo-suculenta.jpg" alt="logo Suculentas-Fla">
-    <h1>Suculentas-Fla</h1>
-    <div>
-    </header>
+        <div class="suculentas-fla-logo">
+            <img class="logo-principal" src="../html/assets/logo-suculenta.jpg" alt="logo-suculentas-fla">
+            <h1 class="titulo-principal">Suculentas-Fla</h1>
+        </div>   
     
-        <nav>
+        <!--lista desordenada-->
+        <nav class="links-menu">
             
-            <a href="html/iniciar-sesion.html"></a>
+            <ul>
+                <li><a href="html/productos.html">Productos</a>
+
+                    <li><a href="html/como-comprar.html">Cómo comprar</a></li>  
+                    <li><a href="html/pagina-de-contacto.html">Contacto</a></li>
+                    <li> <a href="index.html">Inicio</a></li>
+                    <li><a href="html/productos.html">Productos</a></ul>
         
-            <a href="html/productos.html">Productos</a>
-            <a href="html/como-comprar.html">Cómo comprar</a>
-            <a href="html/contacto.html">Contacto</a>
-            <a href="index.html">Inicio</a>
-        </nav>
-           
-            
-        </div>
+    </nav> 
+        
+</header>
     
     <main>
         <h2 class="text-success-emphasis">Productos en venta</h2>
@@ -53,16 +55,35 @@
 
     </main>
     
+
+<!--Pie de Página-->
+<section>
     <footer class="footer-para-todos">
-        <a href="http://instagram.com" target="_blank">Instagram</a>
-        <a href="http://facebook.com" target="_blank">Facebook</a>
-        <h3>Modos de pago</h3> <img src="../html/assets/logo-mercado-pago.jpg" alt="logo de Mercado Pago">
-        <h3>Modos de envío</h3> <img src="../html/assets/logo-via-cargo-ficha.png" alt="logo de Vía Cargo">
+        <!--Enlace absoluto para instagram y facebook-->
+        <div class="instagram-facebook">
+            <ul>
+                <li> <a href="http://instagram.com" target="_blank">Instagram</a></li>
+                <li> <a href="http://facebook.com" target="_blank">Facebook</a></li>
+               
+               
+            </ul>
+            
+        </div>
+
+       <div class="modos-pago-envios">
+        <h3>Modos de pago</h3> <img class="img-logos-envio" src="html/assets/logo-mercado-pago.jpg" width="100px" alt="logo de Mercado Pago">
+        <h3>Modos de envío</h3> <img class="img-logos-envio" src="html/assets/logo-via-cargo-ficha.png" width="200px" alt="logo de Vía Cargo">
         <h3>Contactanos
             Teléfono: 1167884432
             Dirección: Av. Scalabrini Ortiz 2312, CABA, Buenos Aires, Argentina
         </h3>
+       </div>
+
+
     </footer>
+</section>
+
+
 
 
 

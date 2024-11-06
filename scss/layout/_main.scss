@@ -71,8 +71,8 @@ section .productos-en-venta{
     }
 
     .productos-en-venta{
-        border: 2px solid violet;
         display:grid;
+        border: 2px solid violet;
         margin:70px;
         grid-template-columns:repeat(2, 1fr);
         grid-template-rows:repeat(3, 300px);

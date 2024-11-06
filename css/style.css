@@ -57,8 +57,8 @@ section .productos-en-venta .quimicos-fertilizantes {
   grid-area: quimicos-fertilizantes;
 }
 section .productos-en-venta .productos-en-venta {
-  border: 2px solid violet;
   display: grid;
+  border: 2px solid violet;
   margin: 70px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 300px);
@@ -242,8 +242,8 @@ section .productos-en-venta .quimicos-fertilizantes {
   grid-area: quimicos-fertilizantes;
 }
 section .productos-en-venta .productos-en-venta {
-  border: 2px solid violet;
   display: grid;
+  border: 2px solid violet;
   margin: 70px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 300px);
@@ -286,7 +286,7 @@ footer .footer-para-todos {
   display: flex;
   padding: 10px;
 }
-footer .footer-para-todos .instagram-facebook ul li {
+footer .footer-para-todos div .instagram-facebook ul li {
   display: flex;
   text-align: center;
   padding: 15px;
@@ -294,6 +294,9 @@ footer .footer-para-todos .instagram-facebook ul li {
   align-items: center;
   font-family: arial;
   color: black;
+}
+footer .footer-para-todos div .instagram-facebook div .modos-pago-envios .img-logos-envio {
+  width: 15px padding 10px 10px;
 }
 
 boton-iniciar-sesion {

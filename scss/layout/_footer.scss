@@ -6,7 +6,7 @@ footer .footer-para-todos{
     display: flex;
     padding: 10px;
 
-    .instagram-facebook{
+   div .instagram-facebook{
         ul{
             li{
                 display:flex;
@@ -17,6 +17,14 @@ footer .footer-para-todos{
                 font-family: $font-arial;
                 color: black;
             }
+   }
+    div .modos-pago-envios{
+        .img-logos-envio{
+            width: 15px
+            padding 10px 10px
+    }
+
+           
+            }
         }
     }
-}
