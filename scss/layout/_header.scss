@@ -3,6 +3,13 @@ header{
     .suculentas-fla-logo{
         display:flex ;
     }   
+    .logo-prinipal{
+        img{
+            width: 50% ;
+            align-items: center;
+    }
+        }
+
     .titulo-principal{
             color: blue;
             text-align: center;
@@ -15,12 +22,7 @@ header{
 
     }
 
-    .logo-prinipal{
-        img{
-            width: 50px ;
-            align-items: center;
-    }
-        }
+
       
 }
 
@@ -29,7 +31,7 @@ header{
         color:darkgreen ;
         text-decoration: none ;
     }
-        nav {
+        nav .links-menu{
             
             ul {list-style: none;
                 text-align: center;

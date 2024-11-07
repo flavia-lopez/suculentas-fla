@@ -24,15 +24,15 @@ main {
     
     //grid en las fotos de la pagina principal//
 
-    .foto-suculentas{
+    .fotos-suculentas{
         display:grid;
         border: 2px solid violet;
         margin:70px;
         padding:25px;
         grid-template-columns:repeat(3, 1fr);
         grid-template-rows:repeat(2 150px);
-        grid-template-areas:"cactus suculentas plantas-de-interior"
-        "cactus suculentas plantas-de-interior"
+        grid-template-areas:"cactus suculenta planta-de-interior"
+        "cactus suculenta planta-de-interior"
         "macetas quimicos-fertilizantes quimicos-fertilizantes";
         gap:35px; 
         div{
@@ -48,17 +48,17 @@ main {
         }
 }
 }
-    //Aplico grid a la pagina de productos//
+   
 
-section .productos-en-venta{
+section .fotos-suculentas{
     .cactus{
         grid-area: cactus;
     }
     .suculentas{ 
-        grid-area: suculentas;
+        grid-area: suculenta;
     }
     .plantas-de-interior{
-        grid-area: plantas-de-interior;
+        grid-area: planta-de-interior;
        
     }
     .macetas{
@@ -69,6 +69,8 @@ section .productos-en-venta{
     .quimicos-fertilizantes{
         grid-area: quimicos-fertilizantes;
     }
+
+     //Aplico grid a la pagina de productos//
 
     .productos-en-venta{
         display:grid;
@@ -103,13 +105,12 @@ section .productos-en-venta{
     //main de pagina de contacto//
 
 .pagina-de-contacto{
-    .pagina-de-contacto{
         color: $color-black
         font-family $font-arial;
         font-size: 20px;
         text-align: center;
         padding: 10px 10px;
-    }
+    
 }
 
 //main de como comprar//
