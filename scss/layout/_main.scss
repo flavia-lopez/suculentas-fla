@@ -72,55 +72,67 @@ section .fotos-suculentas{
 
      //Aplico grid a la pagina de productos//
 
-    .productos-en-venta{
-        display:grid;
-        border: 2px solid violet;
-        margin:70px;
-        grid-template-columns:repeat(2, 1fr);
-        grid-template-rows:repeat(3, 300px);
-        grid-template-areas: "astrophytum-asterias mammilaria"
-        "astrophytum-asterias mammilaria"
-        "stenocactus astrophytum-myriostigma"
-        "mostrar-mas-productos mostrar-mas-productos"
-        ;
-        gap: 35px;
+     main{
+        .productos-en-venta{
+            display:grid;
+            border: 2px solid violet;
+            margin:70px;
+            grid-template-columns:repeat(2, 1fr);
+            grid-template-rows:repeat(3, 300px);
+            grid-template-areas: "astrophytum-asterias mammilaria"
+            "astrophytum-asterias mammilaria"
+            "stenocactus astrophytum-myriostigma"
+            "mostrar-mas-productos mostrar-mas-productos"
+            ;
+            gap: 35px;
+        }
+        .astrophytum-asterias{grid-area: "astrophytum-asterias";
+    
+        }
+        .mammilaria{ grid-area:"mammilaria";
+    
+        }
+        .stenocactus{ grid-area: "stenocactus";
+    
+        }
+        .astrophytum-myriostigma{ grid-area: "astrophytum-myriostigma";
+    
+        }
+        .mostrar-mas-productos{ grid-area: "mostrar-mas-productos";}
     }
-    .astrophytum-asterias{grid-area: "astrophytum-asterias";
+    
+     }
 
-    }
-    .mammilaria{ grid-area:"mammilaria";
-
-    }
-    .stenocactus{ grid-area: "stenocactus";
-
-    }
-    .astrophytum-myriostigma{ grid-area: "astrophytum-myriostigma";
-
-    }
-    .mostrar-mas-productos{ grid-area: "mostrar-mas-productos";}
-}
-
+    
 
 
     //main de pagina de contacto//
 
-.pagina-de-contacto{
-        color: $color-black
-        font-family $font-arial;
-        font-size: 20px;
-        text-align: center;
-        padding: 10px 10px;
-    
-}
+main{
 
-//main de como comprar//
-.como-comprar{
-    color:$color-black;
-    font-family: $font-arial;
+.pagina-de-contacto{
+    color: $color-black
+    font-family $font-arial;
     font-size: 20px;
     text-align: center;
     padding: 10px 10px;
+
 }
+}
+
+
+//main de como comprar//
+
+main{
+    .como-comprar{
+        color:$color-black;
+        font-family: $font-arial;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 10px;
+    }
+}
+
 
 //main de iniciar sesion//
  main{
