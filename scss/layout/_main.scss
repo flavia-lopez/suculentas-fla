@@ -121,3 +121,27 @@ section .fotos-suculentas{
     text-align: center;
     padding: 10px 10px;
 }
+
+//main de iniciar sesion//
+ main{
+    section{
+        div{
+            .titulo-formulario{
+                color:black;
+                font-family: $font-arial;
+                font-size: 20px;
+                text-align: center;
+                padding: 10px 10px;
+        }
+    }
+    }
+   
+    .formulario-login{
+        width: 50%;
+        display:flex;
+        flex-direction: column;
+        label{
+            color: white
+        }
+    }
+}
