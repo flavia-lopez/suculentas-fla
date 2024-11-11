@@ -14,8 +14,9 @@ main {
         font-style:italic;
         text-decoration: underline;}
         
-    .lista-plantas{
+     ul .lista-plantas{
         display:flex;
+        list-style: none;
         text-decoration: none;
         font-family:$font-arial;
         font-size: 5rem;

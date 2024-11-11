@@ -12,8 +12,9 @@ main span {
   font-style: italic;
   text-decoration: underline;
 }
-main .lista-plantas {
+main ul .lista-plantas {
   display: flex;
+  list-style: none;
   text-decoration: none;
   font-family: arial;
   font-size: 5rem;
@@ -191,8 +192,9 @@ main span {
   font-style: italic;
   text-decoration: underline;
 }
-main .lista-plantas {
+main ul .lista-plantas {
   display: flex;
+  list-style: none;
   text-decoration: none;
   font-family: arial;
   font-size: 5rem;
