@@ -73,7 +73,6 @@ section .foto-suculenta{
 
      //Aplico grid a la pagina de productos//
 
-     main{
         .productos-en-venta{
             display:grid;
             border: 2px solid violet;
@@ -100,9 +99,9 @@ section .foto-suculenta{
     
         }
         .mostrar-mas-productos{ grid-area: "mostrar-mas-productos";}
-    }
     
-     }
+    
+    
 
     
 
@@ -157,4 +156,4 @@ main{
             color: white
         }
     }
-}
+ }}
