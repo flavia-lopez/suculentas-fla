@@ -20,25 +20,5 @@ body{ background-color: greenyellow;
         font-size: 1em;
     }
 
-    @media only screen and (max-width: 320px)
-
-        section{
-                ul{
-                    li{
-                        .lista-plantas{
-                        display: none;
-                        }
-                        
-                    }
-                }
-            }
-    
-            .fotos-suculentas{ width: 30% ;}
-            .productos-en-venta{ width: 30%;}
-    
-            promocion-1 bg-dark bg-gradient{ text-align: center;}
-    
-            .instagram-facebook{ display: none;}
-            .modo-pago-envios { display: none ;}
         
         

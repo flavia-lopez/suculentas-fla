@@ -49,7 +49,6 @@
 
 
          /*modo mobile first*/
-
 @media (min-widht: 768px){
     *{ padding: 0;
         margin: 0;}
