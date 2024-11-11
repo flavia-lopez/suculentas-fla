@@ -152,7 +152,7 @@ header .titulo-principal {
   font-weight: bold;
   align-items: center;
 }
-header nav .links-menu ul {
+header nav .links-menu {
   display: flex;
   list-style: none;
   text-decoration: none;
@@ -160,17 +160,18 @@ header nav .links-menu ul {
   padding: 15px;
   justify-content: space-between;
 }
-header nav .links-menu ul li {
+header nav .links-menu li {
   margin: 10px;
 }
-header nav .links-menu ul li a {
+header nav .links-menu li a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: forestgreen;
   font-size: large;
   font-weight: bolder;
 }
-header .link-iniciar-sesion {
+
+.link-iniciar-sesion {
   font-family: arial;
   color: darkgreen;
   text-decoration: none;
