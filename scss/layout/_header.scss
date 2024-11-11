@@ -21,24 +21,16 @@ header{
             
 
     }
-
-
-      
-}
-
-    .link-iniciar-sesion{
-        font-family: $font-arial;
-        color:darkgreen ;
-        text-decoration: none ;
-    }
-        nav .links-menu{
+    nav {
+        .links-menu{
             
             ul {list-style: none;
+                text-decoration: none;
                 text-align: center;
                 display: flex;
                 padding: 15px; 
                 justify-content: space-between;}
-
+    
                li{ margin: 10px;
                 a{ @include enlaces;
                 }
@@ -47,6 +39,18 @@ header{
               
             }
         }
+    }
+ 
+    }
+      
+
+
+    .link-iniciar-sesion{
+        font-family: $font-arial;
+        color:darkgreen ;
+        text-decoration: none ;
+    }
+ 
     
 
     
