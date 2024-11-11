@@ -21,10 +21,17 @@ body{ background-color: greenyellow;
     }
 
     @media only screen and (max-width: 768px)
-         {padding: 0;
-           margin: 0;}
-            ul li{ display:none ;}
-            section ul li .lista-plantas{ display: none;}
+
+        section{
+                ul{
+                    li{
+                        .lista-plantas{
+                        display: none;
+                        }
+                        
+                    }
+                }
+            }
     
             .fotos-suculentas{ width: 30% ;}
             .productos-en-venta{ width: 30%;}
