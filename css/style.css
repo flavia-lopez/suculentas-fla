@@ -139,7 +139,7 @@ p {
 header .suculentas-fla-logo {
   display: flex;
 }
-header .logo-prinipal img {
+header .logo-prinipal {
   width: 50%;
   align-items: center;
 }
@@ -153,25 +153,24 @@ header .titulo-principal {
   align-items: center;
 }
 header nav .links-menu ul {
+  display: flex;
   list-style: none;
   text-decoration: none;
   text-align: center;
-  display: flex;
   padding: 15px;
   justify-content: space-between;
 }
-header nav .links-menu li {
+header nav .links-menu ul li {
   margin: 10px;
 }
-header nav .links-menu li a {
+header nav .links-menu ul li a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: forestgreen;
   font-size: large;
   font-weight: bolder;
 }
-
-.link-iniciar-sesion {
+header .link-iniciar-sesion {
   font-family: arial;
   color: darkgreen;
   text-decoration: none;

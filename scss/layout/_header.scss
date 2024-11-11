@@ -4,11 +4,10 @@ header{
         display:flex ;
     }   
     .logo-prinipal{
-        img{
             width: 50%;
             align-items: center;
     }
-        }
+        
 
     .titulo-principal{
             color: rgb(6, 52, 29);
@@ -21,36 +20,34 @@ header{
             
 
     }
+    
     nav {
         .links-menu{
-            
-            ul {list-style: none;
+            ul{
+                display: flex;
+                list-style: none;
                 text-decoration: none;
                 text-align: center;
-                display: flex;
-                padding: 15px; 
-                justify-content: space-between;}
-    
-               li{ margin: 10px;
-                a{ @include enlaces;
+                padding: 15px;
+                justify-content: space-between;
+
+                li{
+                    margin: 10px;
+                    a{
+                        @include enlaces;
+                    }
                 }
-                
-              
-              
+
             }
         }
-    }
+}        
+    
  
-    }
-      
-
-
+    
     .link-iniciar-sesion{
         font-family: $font-arial;
         color:darkgreen ;
         text-decoration: none ;
     }
- 
-    
 
-    
+}
