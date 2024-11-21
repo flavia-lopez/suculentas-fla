@@ -1,159 +1,168 @@
 
+//main de index
+.promocion-1 {
+    color: lightcoral;
+    background-color: $background-black;
+    font-family: $font-arial;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
 
-main {
-    .promocion-1{color: lightcoral;
-        background-color: $background-black;
-        font-family: $font-arial;
-        text-align: center;
-        border-radius: 5px;
-        margin: 5px;
-        padding: 10px;
-        } 
-    span {
-        font-weight: bold;
-        font-style:italic;
-        text-decoration: underline;}
-        
-     ul .lista-plantas{
-        display:flex;
-        list-style: none;
-        text-decoration: none;
-        font-family:$font-arial;
-        font-size: 5rem;
-        color: $color-black;
-        }
-    
-    //grid en las fotos de la pagina principal//
+span {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
 
-    .foto-suculenta{
-        display:grid;
-        border: 2px solid violet;
-        margin:70px;
-        padding:25px;
-        grid-template-columns:repeat(3, 1fr);
-        grid-template-rows:repeat(2 150px);
-        grid-template-areas:"cactus suculenta planta-de-interior"
+ul .lista-plantas {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-family: $font-arial;
+    font-size: 5rem;
+    color: $color-black;
+}
+
+//grid en las fotos de la pagina principal//
+
+.foto-suculenta {
+    display: grid;
+    border: 2px solid violet;
+    margin: 70px;
+    padding: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2 150px);
+    grid-template-areas: "cactus suculenta planta-de-interior"
         "cactus suculenta planta-de-interior"
         "macetas quimicos-fertilizantes quimicos-fertilizantes";
-        gap:35px; 
-        div{
-            width: 100%;
-            object-fit: contain;
-            display:flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            img{
-               max-width: 100%;
-            }
-        }
-}
-}
-   
+    gap: 35px;
 
-section .foto-suculenta{
-    .cactus{
+    div {
+        width: 100%;
+        object-fit: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+
+
+.foto-suculenta {
+    .cactus {
         grid-area: cactus;
     }
-    .suculenta{ 
+
+    .suculenta {
         grid-area: suculenta;
     }
-    .planta-de-interior{
+
+    .planta-de-interior {
         grid-area: planta-de-interior;
-       
+
     }
-    .macetas{
-        
+
+    .macetas {
+
         grid-area: macetas;
 
     }
-    .quimicos-fertilizantes{
+
+    .quimicos-fertilizantes {
         grid-area: quimicos-fertilizantes;
     }
 
-     //Aplico grid a la pagina de productos//
+    //Aplico grid a la pagina de productos//
 
-        .productos-en-venta{
-            display:grid;
-            border: 2px solid violet;
-            margin:70px;
-            grid-template-columns:repeat(2, 1fr);
-            grid-template-rows:repeat(3, 300px);
-            grid-template-areas: "astrophytum-asterias mammilaria"
+    .productos-en-venta {
+        display: grid;
+        border: 2px solid violet;
+        margin: 70px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 300px);
+        grid-template-areas: "astrophytum-asterias mammilaria"
             "astrophytum-asterias mammilaria"
             "stenocactus astrophytum-myriostigma"
             "mostrar-mas-productos mostrar-mas-productos"
-            ;
-            gap: 35px;
-        }
-        .astrophytum-asterias{grid-area: "astrophytum-asterias";
-    
-        }
-        .mammilaria{ grid-area:"mammilaria";
-    
-        }
-        .stenocactus{ grid-area: "stenocactus";
-    
-        }
-        .astrophytum-myriostigma{ grid-area: "astrophytum-myriostigma";
-    
-        }
-        .mostrar-mas-productos{ grid-area: "mostrar-mas-productos";}
-    
-    
-    
+        ;
+        gap: 35px;
+    }
 
-    
+    .astrophytum-asterias {
+        grid-area: "astrophytum-asterias";
 
+    }
 
-    //main de pagina de contacto//
+    .mammilaria {
+        grid-area: "mammilaria";
 
-main{
+    }
 
-.pagina-de-contacto{
-    color: $color-black
-    font-family $font-arial;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px 10px;
+    .stenocactus {
+        grid-area: "stenocactus";
 
-}
+    }
+
+    .astrophytum-myriostigma {
+        grid-area: "astrophytum-myriostigma";
+
+    }
+
+    .mostrar-mas-productos {
+        grid-area: "mostrar-mas-productos";
+    }
+
+ //main de pagina de contacto//
+ .pagina-de-contacto {
+        color: $color-black font-family $font-arial;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 10px;
+
+    }
 }
 
 
 //main de como comprar//
 
-main{
-    .como-comprar{
-        color:$color-black;
-        font-family: $font-arial;
-        font-size: 20px;
-        text-align: center;
-        padding: 10px 10px;
-    }
+
+.como-comprar {
+    color: $color-black;
+    font-family: $font-arial;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px;
 }
 
 
+
 //main de iniciar sesion//
- main{
-    section{
-        div{
-            .titulo-formulario{
-                color:black;
+
+    section {
+        div {
+            .titulo-formulario {
+                color: black;
                 font-family: $font-arial;
                 font-size: 20px;
                 text-align: center;
                 padding: 10px 10px;
+            }
         }
     }
-    }
-   
-    .formulario-login{
+
+    .formulario-login {
         width: 50%;
-        display:flex;
+        display: flex;
         flex-direction: column;
-        label{
+
+        label {
             color: white
         }
     }
- }}

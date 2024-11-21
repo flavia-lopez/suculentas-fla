@@ -1,51 +1,55 @@
 
-header{
-    .suculentas-fla-logo{
-        display:flex ;
-    }   
-   .logo-principal{
-            width: 20%;
-            align-items: center;
-    } 
-        
 
-    .titulo-principal{
-            color: rgb(6, 52, 29);
-            text-align: center;
-            font-family: $font-arial;
-            font-style: oblique;
-            font-size: 30;
-            font-weight: bold;
-            align-items: center;
-            
+header {
+    .suculentas-fla-logo {
+        display: flex;
+
 
     }
 
-    nav { 
-            .links-menu{
-                display: flex;
-                list-style: none;
-                text-decoration: none;
-                text-align: center;
-                padding: 15px;
-                justify-content: space-between;
+    .logo-principal {
+        width: 20%;
+        align-items: center;
+    }
 
-                li{
-                    margin: 10px;
-                    a{
-                        @include enlaces;
-                    }
-                }
 
-            }
-        }
-}        
-    
- 
-    
-    .link-iniciar-sesion{
+    .titulo-principal {
+        color: rgb(6, 52, 29);
+        text-align: center;
         font-family: $font-arial;
-        color:darkgreen ;
-        text-decoration: none ;
+        font-style: oblique;
+        font-size: 30;
+        font-weight: bold;
+        align-items: center;
+
+
     }
 
+    nav {
+        ul .links-menu {
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+            text-align: center;
+            padding: 15px;
+            justify-content: space-between;
+
+            li {
+                margin: 10px;
+
+                a {
+                    @include enlaces;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+.link-iniciar-sesion {
+    font-family: $font-arial;
+    color: darkgreen;
+    text-decoration: none;
+}

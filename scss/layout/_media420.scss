@@ -1,0 +1,25 @@
+@media only screen and (max-width: 420px) {
+
+    .fotos-suculentas {
+        flex-wrap: wrap;
+        width: 30%;
+    }
+
+    .productos-en-venta {
+        flex-wrap: wrap;
+        width: 30%;
+    }
+
+    .promocion-1 bg-dark bg-gradient {
+        text-align: center;
+    }
+
+    .instagram-facebook {
+        display: none;
+    }
+
+    .modo-pago-envios {
+        display: none;
+    }
+
+}

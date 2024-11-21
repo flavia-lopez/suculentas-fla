@@ -1,46 +1,37 @@
 
-
-
 footer {
-.footer-para-todos{
-    display: flex;
-    margin-top:20px;
-    padding: 10px;
+        display: flex;
+        margin-top: 20px;
+        padding: 10px;
 
-ul .instagram-facebook{
-    li{ a{     
-        display:flex;
-        text-align: center;
-        text-decoration:none;
-        list-style: none;
-        padding: 15px; 
-        justify-content: space-between; 
-        align-items: center;
-        font-family: $font-arial;
-        color: black;
+        ul .instagram-facebook {
+            display: flex;
+            li {
+                text-align: center;
+                text-decoration: none;
+                list-style: none;
+                padding: 15px;
+                justify-content: space-between;
+                align-items: center;
+                font-family: $font-arial;
+                color: black;
 
-    }
-   
-    }
-}
+            }
 
-
-.modos-pago-envios{ img{
-    width: 2%;
-}
-
-    }
-    
-
-    h3{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 15px;
-    }
-
-           
-            
         }
     
-
+    .logo-mercado-pago{
+        width: 20px;
     }
+    .logo-via-cargo{
+        width: 20px;
+    }
+
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 15px;
+    }
+
+}
+
