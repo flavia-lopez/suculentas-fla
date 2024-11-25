@@ -1,43 +1,28 @@
 
 //Boton de la pagina de inciar sesion//
 
-boton-iniciar-sesion{
-    background-color: green;
-    font-weight: bolder;
-    font-family: $font-arial;
-    font-size: medium;
-    padding: 5px 10px;
-    border-radius: 10px;
-
- 
-        }
-
 
         form {
-            .formulario-display{
-                width: 50%;
-                flex-direction: column;
-                display:flex;
+            .boton-iniciar-sesion{
+                background-color: green;
+                font-weight: bolder;
+                font-family: $font-arial;
+                font-size: medium;
+                padding: 5px 10px;
+                border-radius: 10px;
             }
-    
-                  .formulario-login{
-                    font-family: $font-arial;
-                    font-weight: bolder;
-                    padding: 10%;
-                
-                    
-                   }
-                }
-
                 //formulario de la pagina de contacto//
-                .boton-enviar{
-                    background-color: green;
-                    font-weight: bolder;
-                    font-family: $font-arial;
-                    font-size: medium;
-                    padding: 5px 10px;
-                    border-radius: 10px;
-                }
+                
+                    .boton-enviar{
+                        background-color: green;
+                        font-weight: bolder;
+                        font-family: $font-arial;
+                        font-size: medium;
+                        padding: 5px 10px;
+                        border-radius: 10px;
+                    }
+            
+        }
 
                 //Archivo Productos//
                 section{

@@ -56,6 +56,10 @@ header nav ul .links-menu li a {
   font-size: large;
   font-weight: bolder;
 }
+header .contacto {
+  font-family: arial;
+  font-size: 30px;
+}
 
 .link-iniciar-sesion {
   font-family: arial;
@@ -188,13 +192,18 @@ section div .titulo-formulario {
   padding: 10px 10px;
 }
 
-.formulario-login {
-  width: 50%;
+form .formulario-login {
   display: flex;
   flex-direction: column;
+  font-size: 18px;
 }
-.formulario-login label {
-  color: white;
+form .formulario-login label {
+  color: black;
+}
+
+.pagina-de-contacto .crea-tu-cuenta {
+  font-family: arial;
+  font-size: 15px;
 }
 
 footer {
@@ -286,7 +295,7 @@ footer h3 {
     font-size: 10px;
   }
 }
-boton-iniciar-sesion {
+form .boton-iniciar-sesion {
   background-color: green;
   font-weight: bolder;
   font-family: arial;
@@ -294,19 +303,7 @@ boton-iniciar-sesion {
   padding: 5px 10px;
   border-radius: 10px;
 }
-
-form .formulario-display {
-  width: 50%;
-  flex-direction: column;
-  display: flex;
-}
-form .formulario-login {
-  font-family: arial;
-  font-weight: bolder;
-  padding: 10%;
-}
-
-.boton-enviar {
+form .boton-enviar {
   background-color: green;
   font-weight: bolder;
   font-family: arial;

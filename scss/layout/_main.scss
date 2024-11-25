@@ -181,12 +181,26 @@ section{
         }
     }
 
-    .formulario-login {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
+    form{
+        .formulario-login {
+            display: flex;
+            flex-direction: column;
+            font-size: 18px;
 
-        label {
-            color: white
+    
+            label {
+                color: $color-black
+            }
         }
     }
+
+    //Main de Página de Contacto//
+    .pagina-de-contacto{
+        .crea-tu-cuenta{
+            font-family: $font-arial;
+            font-size: 15px;
+
+        }
+    }
+
+    
