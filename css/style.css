@@ -1,118 +1,3 @@
-main .promocion-1, main section h3, section main h3, main section #cactus-id, section main #cactus-id, main section h2 .titulo-promociones .parrafo-promociones, section h2 .titulo-promociones main .parrafo-promociones {
-  color: lightcoral;
-  background-color: black;
-  font-family: arial;
-  text-align: center;
-  border-radius: 5px;
-  margin: 5px;
-  padding: 10px;
-}
-main span {
-  font-weight: bold;
-  font-style: italic;
-  text-decoration: underline;
-}
-main ul .lista-plantas {
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-  font-family: arial;
-  font-size: 5rem;
-  color: black;
-}
-main .foto-suculenta {
-  display: grid;
-  border: 2px solid violet;
-  margin: 70px;
-  padding: 25px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2 150px);
-  grid-template-areas: "cactus suculenta planta-de-interior" "cactus suculenta planta-de-interior" "macetas quimicos-fertilizantes quimicos-fertilizantes";
-  gap: 35px;
-}
-main .foto-suculenta div {
-  width: 100%;
-  object-fit: contain;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-main .foto-suculenta div img {
-  max-width: 100%;
-}
-
-section .foto-suculenta .cactus {
-  grid-area: cactus;
-}
-section .foto-suculenta .suculenta {
-  grid-area: suculenta;
-}
-section .foto-suculenta .planta-de-interior {
-  grid-area: planta-de-interior;
-}
-section .foto-suculenta .macetas {
-  grid-area: macetas;
-}
-section .foto-suculenta .quimicos-fertilizantes {
-  grid-area: quimicos-fertilizantes;
-}
-section .foto-suculenta main .productos-en-venta {
-  display: grid;
-  border: 2px solid violet;
-  margin: 70px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 300px);
-  grid-template-areas: "astrophytum-asterias mammilaria" "astrophytum-asterias mammilaria" "stenocactus astrophytum-myriostigma" "mostrar-mas-productos mostrar-mas-productos";
-  gap: 35px;
-}
-section .foto-suculenta main .astrophytum-asterias {
-  grid-area: "astrophytum-asterias";
-}
-section .foto-suculenta main .mammilaria {
-  grid-area: "mammilaria";
-}
-section .foto-suculenta main .stenocactus {
-  grid-area: "stenocactus";
-}
-section .foto-suculenta main .astrophytum-myriostigma {
-  grid-area: "astrophytum-myriostigma";
-}
-section .foto-suculenta main .mostrar-mas-productos {
-  grid-area: "mostrar-mas-productos";
-}
-
-main .pagina-de-contacto {
-  color: black font-family arial;
-  font-size: 20px;
-  text-align: center;
-  padding: 10px 10px;
-}
-
-main .como-comprar {
-  color: black;
-  font-family: arial;
-  font-size: 20px;
-  text-align: center;
-  padding: 10px 10px;
-}
-
-main section div .titulo-formulario {
-  color: black;
-  font-family: arial;
-  font-size: 20px;
-  text-align: center;
-  padding: 10px 10px;
-}
-main .formulario-login {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-main .formulario-login label {
-  color: white;
-}
-
 body {
   background-color: greenyellow;
   font-family: arial;
@@ -153,7 +38,7 @@ header .titulo-principal {
   font-weight: bold;
   align-items: center;
 }
-header nav .links-menu {
+header nav ul .links-menu {
   display: flex;
   list-style: none;
   text-decoration: none;
@@ -161,10 +46,10 @@ header nav .links-menu {
   padding: 15px;
   justify-content: space-between;
 }
-header nav .links-menu li {
+header nav ul .links-menu li {
   margin: 10px;
 }
-header nav .links-menu li a {
+header nav ul .links-menu li a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: forestgreen;
@@ -178,7 +63,7 @@ header nav .links-menu li a {
   text-decoration: none;
 }
 
-main .promocion-1, main section h2 .titulo-promociones .parrafo-promociones, section h2 .titulo-promociones main .parrafo-promociones, main section #cactus-id, section main #cactus-id, main section h3, section main h3 {
+.promocion-1, section h2 .titulo-promociones .parrafo-promociones, section #cactus-id, section h3 {
   color: lightcoral;
   background-color: black;
   font-family: arial;
@@ -187,12 +72,14 @@ main .promocion-1, main section h2 .titulo-promociones .parrafo-promociones, sec
   margin: 5px;
   padding: 10px;
 }
-main span {
+
+span {
   font-weight: bold;
   font-style: italic;
   text-decoration: underline;
 }
-main ul .lista-plantas {
+
+ul .lista-plantas {
   display: flex;
   list-style: none;
   text-decoration: none;
@@ -200,7 +87,18 @@ main ul .lista-plantas {
   font-size: 5rem;
   color: black;
 }
-main .foto-suculenta {
+
+section p .parrafo-promociones {
+  color: lightcoral;
+  background-color: black;
+  font-family: arial;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.foto-suculenta {
   display: grid;
   border: 2px solid violet;
   margin: 70px;
@@ -210,7 +108,7 @@ main .foto-suculenta {
   grid-template-areas: "cactus suculenta planta-de-interior" "cactus suculenta planta-de-interior" "macetas quimicos-fertilizantes quimicos-fertilizantes";
   gap: 35px;
 }
-main .foto-suculenta div {
+.foto-suculenta div {
   width: 100%;
   object-fit: contain;
   display: flex;
@@ -218,26 +116,26 @@ main .foto-suculenta div {
   justify-content: center;
   overflow: hidden;
 }
-main .foto-suculenta div img {
+.foto-suculenta div img {
   max-width: 100%;
 }
 
-section .foto-suculenta .cactus {
+.foto-suculenta .cactus {
   grid-area: cactus;
 }
-section .foto-suculenta .suculenta {
+.foto-suculenta .suculenta {
   grid-area: suculenta;
 }
-section .foto-suculenta .planta-de-interior {
+.foto-suculenta .planta-de-interior {
   grid-area: planta-de-interior;
 }
-section .foto-suculenta .macetas {
+.foto-suculenta .macetas {
   grid-area: macetas;
 }
-section .foto-suculenta .quimicos-fertilizantes {
+.foto-suculenta .quimicos-fertilizantes {
   grid-area: quimicos-fertilizantes;
 }
-section .foto-suculenta main .productos-en-venta {
+.foto-suculenta .productos-en-venta {
   display: grid;
   border: 2px solid violet;
   margin: 70px;
@@ -246,30 +144,43 @@ section .foto-suculenta main .productos-en-venta {
   grid-template-areas: "astrophytum-asterias mammilaria" "astrophytum-asterias mammilaria" "stenocactus astrophytum-myriostigma" "mostrar-mas-productos mostrar-mas-productos";
   gap: 35px;
 }
-section .foto-suculenta main .astrophytum-asterias {
+.foto-suculenta .astrophytum-asterias {
   grid-area: "astrophytum-asterias";
 }
-section .foto-suculenta main .mammilaria {
+.foto-suculenta .mammilaria {
   grid-area: "mammilaria";
 }
-section .foto-suculenta main .stenocactus {
+.foto-suculenta .stenocactus {
   grid-area: "stenocactus";
 }
-section .foto-suculenta main .astrophytum-myriostigma {
+.foto-suculenta .astrophytum-myriostigma {
   grid-area: "astrophytum-myriostigma";
 }
-section .foto-suculenta main .mostrar-mas-productos {
+.foto-suculenta .mostrar-mas-productos {
   grid-area: "mostrar-mas-productos";
 }
-
-main .pagina-de-contacto {
+.foto-suculenta .pagina-de-contacto {
   color: black font-family arial;
   font-size: 20px;
   text-align: center;
   padding: 10px 10px;
 }
 
-main .como-comprar {
+.como-comprar {
+  color: black;
+  font-family: arial;
+  font-size: 0px;
+  text-align: left;
+  padding: 10px 10px;
+}
+.como-comprar .informacion-adicional {
+  font-size: 20px;
+}
+.como-comprar .contenidodecomocomprar {
+  font-size: 15px;
+}
+
+section div .titulo-formulario {
   color: black;
   font-family: arial;
   font-size: 20px;
@@ -277,29 +188,22 @@ main .como-comprar {
   padding: 10px 10px;
 }
 
-main section div .titulo-formulario {
-  color: black;
-  font-family: arial;
-  font-size: 20px;
-  text-align: center;
-  padding: 10px 10px;
-}
-main .formulario-login {
+.formulario-login {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
-main .formulario-login label {
+.formulario-login label {
   color: white;
 }
 
-footer .footer-para-todos {
+footer {
   display: flex;
+  flex-direction: row;
   margin-top: 20px;
   padding: 10px;
 }
-footer .footer-para-todos ul .instagram-facebook li a {
-  display: flex;
+footer ul .instagram-facebook li {
   text-align: center;
   text-decoration: none;
   list-style: none;
@@ -309,33 +213,77 @@ footer .footer-para-todos ul .instagram-facebook li a {
   font-family: arial;
   color: black;
 }
-footer .footer-para-todos .modos-pago-envios img {
-  width: 2%;
+footer .logo-mercado-pago {
+  width: 60px;
 }
-footer .footer-para-todos h3 {
+footer .logo-via-cargo {
+  width: 60px;
+}
+footer h3 {
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
   font-size: 15px;
 }
 
-@media only screen and (max-width: 320px) {
-  .links-menu ul li a {
-    display: none;
-  }
-  .fotos-suculentas {
-    width: 30%;
-  }
-  .productos-en-venta {
-    width: 30%;
+@media only screen and (max-width: 420px) {
+  nav ul .links-menu {
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    justify-content: space-between;
+    font-size: 15px;
   }
   .promocion-1 bg-dark bg-gradient, section h2 .titulo-promociones .parrafo-promociones bg-dark bg-gradient, section #cactus-id bg-dark bg-gradient, section h3 bg-dark bg-gradient {
     text-align: center;
+    font-size: 10px;
   }
-  .instagram-facebook {
-    display: none;
+  .fotos-suculentas {
+    flex-wrap: wrap;
+    width: 40%;
   }
-  .modo-pago-envios {
-    display: none;
+  .logo-mercado-pago {
+    width: 30%;
+  }
+  .logo-via-cargo {
+    width: 30%;
+  }
+  h3 {
+    font-size: 10px;
+    text-align: center;
+  }
+  .productos-en-venta {
+    flex-wrap: wrap;
+    width: 30%;
+  }
+  .como-comprar {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 15px;
+  }
+  .como-comprar .informacion-adicional {
+    font-size: 10px;
+  }
+  .como-comprar .contenidodecomocomprar {
+    font-size: 10px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  footer ul .instagram-facebook li a {
+    padding: 20px;
+  }
+  footer .logo-mercado-pago {
+    width: 40px;
+  }
+  footer .logo-via-cargo {
+    width: 40px;
+  }
+  footer h3 {
+    font-size: 10px;
   }
 }
 boton-iniciar-sesion {
@@ -359,6 +307,23 @@ form .formulario-login {
 }
 
 .boton-enviar {
+  background-color: green;
+  font-weight: bolder;
+  font-family: arial;
+  font-size: medium;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+section .productos-en-venta .boton-carrito {
+  background-color: green;
+  font-weight: bolder;
+  font-family: arial;
+  font-size: medium;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+section .productos-en-venta .boton-mostras-mas-productos {
   background-color: green;
   font-weight: bolder;
   font-family: arial;

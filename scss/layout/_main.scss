@@ -25,6 +25,19 @@ ul .lista-plantas {
     color: $color-black;
 }
 
+section{
+    p{
+        .parrafo-promociones{
+            color: lightcoral;
+            background-color: $background-black;
+            font-family: $font-arial;
+            text-align: center;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 10px;
+    }
+}
+}
 //grid en las fotos de la pagina principal//
 
 .foto-suculenta {
@@ -121,7 +134,8 @@ ul .lista-plantas {
 
  //main de pagina de contacto//
  .pagina-de-contacto {
-        color: $color-black font-family $font-arial;
+        color: $color-black 
+        font-family $font-arial;
         font-size: 20px;
         text-align: center;
         padding: 10px 10px;
@@ -136,10 +150,20 @@ ul .lista-plantas {
 .como-comprar {
     color: $color-black;
     font-family: $font-arial;
-    font-size: 20px;
-    text-align: center;
+    font-size: 0px;
+    text-align: left;
     padding: 10px 10px;
+
+    .informacion-adicional{
+        font-size: 20px;
+
+         
+    }
+    .contenidodecomocomprar{
+        font-size: 15px;
+    }
 }
+
 
 
 
