@@ -1,25 +1,48 @@
 @media only screen and (max-width: 420px) {
+    //links menu en el index//
+    
+    nav {
+        ul .links-menu {
+            flex-direction: column;
+            list-style: none;
+            text-decoration: none;
+            text-align: center;
+            padding: 5px;
+            justify-content: space-between;
+            font-size: 10px;}}
 
+            .promocion-1 bg-dark bg-gradient {
+                text-align: center;
+                font-size: 10px;
+            }
+
+//grid 1 foto-suculentas//
     .fotos-suculentas {
         flex-wrap: wrap;
+        width: 40%;
+    }
+
+    //footer//
+    .logo-mercado-pago{
+        width:30% ;
+    }
+    .logo-via-cargo{
         width: 30%;
     }
+
+
+    h3 {
+       font-size: 10px;
+       text-align: center;
+    }
+
+//Archivo productos//
 
     .productos-en-venta {
         flex-wrap: wrap;
         width: 30%;
     }
 
-    .promocion-1 bg-dark bg-gradient {
-        text-align: center;
-    }
 
-    .instagram-facebook {
-        display: none;
-    }
 
-    .modo-pago-envios {
-        display: none;
     }
-
-}
