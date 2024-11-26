@@ -9,11 +9,11 @@
             text-align: center;
             padding: 5px;
             justify-content: space-between;
-            font-size: 15px;}}
+            font-size: 20px;}}
 
             .promocion-1 bg-dark bg-gradient {
                 text-align: center;
-                font-size: 10px;
+                font-size: 15px;
             }
 
 //grid 1 foto-suculentas//
@@ -79,18 +79,54 @@
         }
     
     .logo-mercado-pago{
-        width: 40px;
+        width: 50px;
     }
     .logo-via-cargo{
-        width: 40px;
+        width: 50px;
     }
 
     h3 {
-        font-size: 10px;
+        font-size: 15px;
     }
 
 }
+//Archivo iniciar-sesion//
 
+form {
+    padding: 15px 15px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+
+ label{
+    font-size: 15px;
+ }
+ input{
+    width: 60%;
+ }
+
+
+}
+//titulo login//
+.titulo-formulario{
+    font-size: 15px;
+}
+
+
+//Archivo Pagina de Contacto//
+.contacto{
+    font-size: 25px;
+}
+
+.pagina-de-contacto{
+    .crea-tu-cuenta{
+        font-size: 15px;
+
+    }
+}
+.whatsapp{
+    font-size: 10px;
+}
  
 }
 
