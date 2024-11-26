@@ -26,7 +26,8 @@ header {
     }
 
     nav {
-        ul .links-menu {
+        
+            .links-menu{
             display: flex;
             list-style: none;
             text-decoration: none;
@@ -42,8 +43,9 @@ header {
                 }
             }
 
-        }
+        
     }
+}
     //titulo principal de la pagina de contacto//
     .contacto{
         font-family: $font-arial;

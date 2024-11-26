@@ -16,7 +16,11 @@ footer {
                 align-items: center;
                 font-family: $font-arial;
                 color: black;
-
+                 a{
+                   font-family: $font-arial;
+                   font-size: 15px;
+                   color: $color-black
+                }
             }
 
         }

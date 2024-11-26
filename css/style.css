@@ -38,7 +38,7 @@ header .titulo-principal {
   font-weight: bold;
   align-items: center;
 }
-header nav ul .links-menu {
+header nav .links-menu {
   display: flex;
   list-style: none;
   text-decoration: none;
@@ -46,10 +46,10 @@ header nav ul .links-menu {
   padding: 15px;
   justify-content: space-between;
 }
-header nav ul .links-menu li {
+header nav .links-menu li {
   margin: 10px;
 }
-header nav ul .links-menu li a {
+header nav .links-menu li a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: forestgreen;
@@ -220,6 +220,11 @@ footer ul .instagram-facebook li {
   justify-content: space-between;
   align-items: center;
   font-family: arial;
+  color: black;
+}
+footer ul .instagram-facebook li a {
+  font-family: arial;
+  font-size: 15px;
   color: black;
 }
 footer .logo-mercado-pago {
