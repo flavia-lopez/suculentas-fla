@@ -17,16 +17,19 @@ main {
     text-decoration: underline;
   }
 
-  ul {
-    .lista-plantas {
+   .lista-plantas  {
       display: flex;
       list-style: none;
       text-decoration: none;
+      justify-content: space-between;
+      margin: 15px;
+      padding: 15px;
       font-family: $font-arial;
-      font-size: 5rem;
+      font-size: 15px;
       color: $color-black;
+      font-weight: bolder;
     }
-  }
+  
 
   section {
     .parrafo-promociones {
@@ -98,6 +101,7 @@ main {
         font-weight: bolder;
         font-size: 30px;
       }
+    
       .productos-en-venta {
         display: grid;
         border: 2px solid violet;
@@ -178,4 +182,5 @@ main {
       padding: 10px 10px;
     }
   }
+
 }

@@ -81,13 +81,17 @@ main span {
   font-style: italic;
   text-decoration: underline;
 }
-main ul .lista-plantas {
+main .lista-plantas {
   display: flex;
   list-style: none;
   text-decoration: none;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 15px;
   font-family: arial;
-  font-size: 5rem;
+  font-size: 15px;
   color: black;
+  font-weight: bolder;
 }
 main section .parrafo-promociones {
   color: lightcoral;
@@ -243,9 +247,17 @@ footer h3 {
     text-align: center;
     font-size: 15px;
   }
+  ul .lista-plantas {
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+  }
   .fotos-suculentas {
-    flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
+    margin: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    grid-auto-rows: 300px;
   }
   .logo-mercado-pago {
     width: 30%;
@@ -258,10 +270,11 @@ footer h3 {
     text-align: center;
   }
   .productos-en-venta {
+    width: 100%;
+    margin: 5px;
     flex-wrap: wrap;
-    width: 30%;
-    margin: 70px;
     grid-template-columns: 1fr;
+    grid-template-rows: 300px;
     grid-auto-rows: 300px;
     grid-template-areas: "astrophytum-asterias" "mammilaria" "stenocactus" "astrophytum-myriostigma" "mostrar-mas-productos";
   }
