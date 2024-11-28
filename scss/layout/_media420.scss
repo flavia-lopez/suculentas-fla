@@ -1,133 +1,129 @@
 @media only screen and (max-width: 420px) {
-    //links menu en el index//
-    
-    nav {
-        ul .links-menu {
-            flex-direction: column;
-            list-style: none;
-            text-decoration: none;
-            text-align: center;
-            padding: 5px;
-            justify-content: space-between;
-            font-size: 20px;}}
+  //links menu en el index//
 
-            .promocion-1 bg-dark bg-gradient {
-                text-align: center;
-                font-size: 15px;
-            }
-
-//grid 1 foto-suculentas//
-    .fotos-suculentas {
-        flex-wrap: wrap;
-        width: 40%;
+  nav {
+    ul .links-menu {
+      flex-direction: column;
+      list-style: none;
+      text-decoration: none;
+      text-align: center;
+      padding: 5px;
+      font-size: 20px;
     }
+  }
 
-    //footer//
-    .logo-mercado-pago{
-        width:30% ;
-    }
-    .logo-via-cargo{
-        width: 30%;
-    }
+  .promocion-1 bg-dark bg-gradient {
+    text-align: center;
+    font-size: 15px;
+  }
 
+  //grid 1 foto-suculentas//
+  .fotos-suculentas {
+    flex-wrap: wrap;
+    width: 50%;
+  }
 
-    h3 {
-       font-size: 10px;
-       text-align: center;
-    }
+  //footer//
+  .logo-mercado-pago {
+    width: 30%;
+  }
+  .logo-via-cargo {
+    width: 30%;
+  }
 
-//Archivo productos//
+  h3 {
+    font-size: 10px;
+    text-align: center;
+  }
 
-    .productos-en-venta {
-        flex-wrap: wrap;
-        width: 30%;
-    }
+  //Archivo productos//
+
+  .productos-en-venta {
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 70px;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 300px;
+    grid-template-areas:
+      "astrophytum-asterias"
+      "mammilaria"
+      "stenocactus"
+      "astrophytum-myriostigma"
+      "mostrar-mas-productos";
+  }
 
   //Archivo Cómo comprar//
-    
-.como-comprar {
+
+  .como-comprar {
     font-size: 20px;
     text-align: center;
     padding: 15px 15px;
 
-    .informacion-adicional{
-        font-size: 10px;
-
-         
+    .informacion-adicional {
+      font-size: 10px;
     }
-    .contenidodecomocomprar{
-        font-size: 10px;
+    .contenidodecomocomprar {
+      font-size: 10px;
     }
+  }
 
-    }
+  //footer//
+  footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 10px;
 
-    //footer//
-    footer {       
-        display: flex;
-        flex-direction: row;
-        margin-top: 20px;
-        padding: 10px;
-
-
-        ul .instagram-facebook {
-            li {a{
-                padding: 20px;
-            }
-
+    ul .instagram-facebook {
+      li {
+        a {
+          padding: 20px;
         }
-
-        }
-    
-    .logo-mercado-pago{
-        width: 50px;
+      }
     }
-    .logo-via-cargo{
-        width: 50px;
+
+    .logo-mercado-pago {
+      width: 50px;
+    }
+    .logo-via-cargo {
+      width: 50px;
     }
 
     h3 {
-        font-size: 15px;
+      font-size: 15px;
     }
+  }
+  //Archivo iniciar-sesion//
 
-}
-//Archivo iniciar-sesion//
-
-form {
+  form {
     padding: 15px 15px;
     margin: 15px;
     align-items: center;
     text-align: center;
 
- label{
-    font-size: 15px;
- }
- input{
-    width: 60%;
- }
-
-
-}
-//titulo login//
-.titulo-formulario{
-    font-size: 15px;
-}
-
-
-//Archivo Pagina de Contacto//
-.contacto{
-    font-size: 25px;
-}
-
-.pagina-de-contacto{
-    .crea-tu-cuenta{
-        font-size: 15px;
-
+    label {
+      font-size: 15px;
     }
-}
-.whatsapp{
-    font-size: 10px;
-}
- 
-}
+    input {
+      width: 60%;
+    }
+  }
+  //titulo login//
+  .titulo-formulario {
+    font-size: 15px;
+  }
 
-  
+  //Archivo Pagina de Contacto//
+  .contacto {
+    font-size: 25px;
+  }
+
+  .pagina-de-contacto {
+    .crea-tu-cuenta {
+      font-size: 15px;
+    }
+  }
+  .whatsapp {
+    font-size: 10px;
+  }
+}

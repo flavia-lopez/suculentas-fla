@@ -1,6 +1,7 @@
+//main de index//
 
-//main de index
-.promocion-1 {
+main {
+  .promocion-1 {
     color: lightcoral;
     background-color: $background-black;
     font-family: $font-arial;
@@ -8,199 +9,173 @@
     border-radius: 5px;
     margin: 5px;
     padding: 10px;
-}
+  }
 
-span {
+  span {
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
-}
+  }
 
-ul .lista-plantas {
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    font-family: $font-arial;
-    font-size: 5rem;
-    color: $color-black;
-}
-
-section{
-    p{
-        .parrafo-promociones{
-            color: lightcoral;
-            background-color: $background-black;
-            font-family: $font-arial;
-            text-align: center;
-            border-radius: 5px;
-            margin: 5px;
-            padding: 10px;
+  ul {
+    .lista-plantas {
+      display: flex;
+      list-style: none;
+      text-decoration: none;
+      font-family: $font-arial;
+      font-size: 5rem;
+      color: $color-black;
     }
-}
-}
-//grid en las fotos de la pagina principal//
+  }
 
-.foto-suculenta {
+  section {
+    .parrafo-promociones {
+      color: lightcoral;
+      font-family: $font-arial;
+      font-size: 15px;
+      text-align: center;
+      border-radius: 5px;
+      margin: 5px;
+      padding: 10px;
+    }
+  }
+  //grid en las fotos de la pagina principal//
+
+  .foto-suculenta {
     display: grid;
     border: 2px solid violet;
     margin: 70px;
     padding: 25px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2 150px);
-    grid-template-areas: "cactus suculenta planta-de-interior"
-        "cactus suculenta planta-de-interior"
-        "macetas quimicos-fertilizantes quimicos-fertilizantes";
+    grid-template-areas:
+      "cactus suculenta planta-de-interior"
+      "cactus suculenta planta-de-interior"
+      "macetas quimicos-fertilizantes quimicos-fertilizantes";
     gap: 35px;
 
     div {
-        width: 100%;
-        object-fit: contain;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
+      width: 100%;
+      object-fit: contain;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
 
-        img {
-            max-width: 100%;
-        }
+      img {
+        max-width: 100%;
+      }
     }
-}
+  }
 
-
-
-.foto-suculenta {
+  .foto-suculenta {
     .cactus {
-        grid-area: cactus;
+      grid-area: cactus;
     }
 
     .suculenta {
-        grid-area: suculenta;
+      grid-area: suculenta;
     }
 
     .planta-de-interior {
-        grid-area: planta-de-interior;
-
+      grid-area: planta-de-interior;
     }
 
     .macetas {
-
-        grid-area: macetas;
-
+      grid-area: macetas;
     }
 
     .quimicos-fertilizantes {
-        grid-area: quimicos-fertilizantes;
+      grid-area: quimicos-fertilizantes;
     }
 
+    //Pagina Productos//
     //Aplico grid a la pagina de productos//
 
-    .productos-en-venta {
+    .principal-productos {
+      .titulo-productos-en-venta {
+        font-family: $font-arial;
+        font-weight: bolder;
+        font-size: 30px;
+      }
+      .productos-en-venta {
         display: grid;
         border: 2px solid violet;
         margin: 70px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 300px);
-        grid-template-areas: "astrophytum-asterias mammilaria"
-            "astrophytum-asterias mammilaria"
-            "stenocactus astrophytum-myriostigma"
-            "mostrar-mas-productos mostrar-mas-productos"
-        ;
+        grid-template-areas:
+          "astrophytum-asterias mammilaria"
+          "astrophytum-asterias mammilaria"
+          "stenocactus astrophytum-myriostigma"
+          "mostrar-mas-productos mostrar-mas-productos";
         gap: 35px;
+
+        .astrophytum-asterias {
+          grid-area: "astrophytum-asterias";
+        }
+
+        .mammilaria {
+          grid-area: "mammilaria";
+        }
+
+        .stenocactus {
+          grid-area: "stenocactus";
+        }
+
+        .astrophytum-myriostigma {
+          grid-area: "astrophytum-myriostigma";
+        }
+
+        .mostrar-mas-productos {
+          grid-area: "mostrar-mas-productos";
+        }
+      }
     }
 
-    .astrophytum-asterias {
-        grid-area: "astrophytum-asterias";
-
+    //main de pagina de contacto//
+    .pagina-de-contacto {
+      color: $color-black font-family $font-arial;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px 10px;
     }
-
-    .mammilaria {
-        grid-area: "mammilaria";
-
+    .crea-tu-cuenta {
+      font-family: $font-arial;
+      font-size: 15px;
     }
-
-    .stenocactus {
-        grid-area: "stenocactus";
-
+    .Whatsapp {
+      font-family: $font-arial;
+      font-size: small;
     }
+  }
 
-    .astrophytum-myriostigma {
-        grid-area: "astrophytum-myriostigma";
+  //main de como comprar//
 
-    }
-
-    .mostrar-mas-productos {
-        grid-area: "mostrar-mas-productos";
-    }
-
- //main de pagina de contacto//
- .pagina-de-contacto {
-        color: $color-black 
-        font-family $font-arial;
-        font-size: 20px;
-        text-align: center;
-        padding: 10px 10px;
-
-    }
-}
-
-
-//main de como comprar//
-
-
-.como-comprar {
+  .como-comprar {
     color: $color-black;
     font-family: $font-arial;
     font-size: 0px;
     text-align: left;
     padding: 10px 10px;
 
-    .informacion-adicional{
-        font-size: 20px;
+    .informacion-adicional {
+      font-size: 20px;
+    }
+    .contenidodecomocomprar {
+      font-size: 15px;
+    }
+  }
 
-         
+  //main de iniciar sesion//
+
+  div {
+    .titulo-formulario {
+      color: black;
+      font-family: $font-arial;
+      font-size: 20px;
+      text-align: center;
+      padding: 10px 10px;
     }
-    .contenidodecomocomprar{
-        font-size: 15px;
-    }
+  }
 }
-
-
-
-
-//main de iniciar sesion//
-
-    section {
-        div {
-            .titulo-formulario {
-                color: black;
-                font-family: $font-arial;
-                font-size: 20px;
-                text-align: center;
-                padding: 10px 10px;
-            }
-        }
-    }
-
-    form{
-        .formulario-login {
-            display: flex;
-            flex-direction: column;
-            font-size: 18px;
-
-    
-            label {
-                color: $color-black
-            }
-        }
-    }
-
-    //Main de Página de Contacto//
-    .pagina-de-contacto{
-        .crea-tu-cuenta{
-            font-family: $font-arial;
-            font-size: 15px;
-
-        }
-    }
-
-    
