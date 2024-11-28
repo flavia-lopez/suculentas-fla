@@ -1,22 +1,17 @@
-
-
 section {
-    h2 {
-        .titulo-promociones {
-            .parrafo-promociones {
-                @extend .promocion-1;
-            }
-
-        }
-    }
-
-    #cactus-id {
-
+  h2 {
+    .titulo-promociones {
+      .parrafo-promociones {
         @extend .promocion-1;
+      }
     }
+  }
 
-    h3 {
+  #cactus-id {
+    @extend .promocion-1;
+  }
 
-        @extend .promocion-1;
-    }
+  h3 {
+    @extend .promocion-1;
+  }
 }
