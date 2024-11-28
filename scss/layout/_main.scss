@@ -41,6 +41,13 @@ main {
       margin: 5px;
       padding: 10px;
     }
+    .titulo-promociones{
+      font-family: $font-arial;
+      font-size: 20px;
+      font-weight: bolder;
+      color: rgb(4, 31, 4)
+      
+    }
   }
   //grid en las fotos de la pagina principal//
 
@@ -92,13 +99,7 @@ main {
       grid-area: quimicos-fertilizantes;
     }
 
-    .titulo-promociones{
-      font-family: $font-arial;
-      font-size: 20px;
-      font-weight: bolder;
-      color: rgb(4, 31, 4)
-      
-    }
+
 
 }
     //Pagina Productos//
@@ -165,19 +166,26 @@ main {
       font-family: $font-arial;
       font-size: small;
     }
-  }
+  
 
   //main de como comprar//
 
   .como-comprar {
-    color: $color-black;
-    font-family: $font-arial;
-    font-size: 0px;
-    text-align: left;
-    padding: 10px 10px;
+    .titulo-como-comprar{
+      background-color: black;
+      color: lightcoral;
+      font-family: $font-arial;
+      font: size 25px;
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+
 
     .informacion-adicional {
-      font-size: 20px;
+      font-size: 15px;
+      font-family: $font-arial;
     }
     .contenidodecomocomprar {
       font-size: 15px;
@@ -197,3 +205,4 @@ main {
     
 }
 
+}
