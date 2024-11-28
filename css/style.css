@@ -167,8 +167,10 @@ main .foto-suculenta .principal-productos .productos-en-venta .astrophytum-myrio
 main .foto-suculenta .principal-productos .productos-en-venta .mostrar-mas-productos {
   grid-area: "mostrar-mas-productos";
 }
-main .foto-suculenta .pagina-de-contacto {
-  color: black font-family arial;
+main .foto-suculenta .pagina-de-contacto .contacto {
+  background-color: black;
+  color: lightcoral;
+  font-family: arial;
   font-size: 20px;
   text-align: center;
   padding: 10px 10px;
@@ -194,8 +196,9 @@ main .como-comprar .informacion-adicional {
 main .como-comprar .contenidodecomocomprar {
   font-size: 15px;
 }
-main div .titulo-formulario {
-  color: black;
+main .iniciar-sesion .titulo-formulario {
+  background-color: black;
+  color: lightcoral;
   font-family: arial;
   font-size: 20px;
   text-align: center;

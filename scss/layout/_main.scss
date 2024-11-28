@@ -92,6 +92,15 @@ main {
       grid-area: quimicos-fertilizantes;
     }
 
+    .titulo-promociones{
+      font-family: $font-arial;
+      font-size: 20px;
+      font-weight: bolder;
+      color: rgb(4, 31, 4)
+      
+    }
+
+}
     //Pagina Productos//
     //Aplico grid a la pagina de productos//
 
@@ -139,10 +148,14 @@ main {
 
     //main de pagina de contacto//
     .pagina-de-contacto {
-      color: $color-black font-family $font-arial;
+    .contacto{
+      background-color: black;
+      color: lightcoral;
+      font-family:$font-arial ;
       font-size: 20px;
       text-align: center;
       padding: 10px 10px;
+    }
     }
     .crea-tu-cuenta {
       font-family: $font-arial;
@@ -172,15 +185,15 @@ main {
   }
 
   //main de iniciar sesion//
-
-  div {
+.iniciar-sesion{
     .titulo-formulario {
-      color: black;
+      background-color: black;
+      color: lightcoral;
       font-family: $font-arial;
       font-size: 20px;
       text-align: center;
       padding: 10px 10px;
     }
-  }
-
+    
 }
+
