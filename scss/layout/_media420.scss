@@ -113,7 +113,7 @@
   //Archivo iniciar-sesion//
 
   form {
-    padding: 15px 15px;
+    padding: 15px;
     margin: 15px;
     align-items: center;
     text-align: center;
@@ -131,16 +131,31 @@
   }
 
   //Archivo Pagina de Contacto//
-  .contacto {
-    font-size: 25px;
-  }
 
   .pagina-de-contacto {
+    .contacto {
+      font-size: 25px;
+    }
     .crea-tu-cuenta {
       font-size: 15px;
     }
-  }
+  
   .whatsapp {
     font-size: 10px;
   }
+  .envianos-un-mensaje {
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+  
+    .name-email-message {
+    font-size: 15px;
+    }
+    input {
+      width: 60%;
+    }
+  }
+}
+
 }

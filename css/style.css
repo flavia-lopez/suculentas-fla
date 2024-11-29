@@ -207,17 +207,18 @@ main .foto-suculenta .quimicos-fertilizantes {
   font-family: arial;
   font-size: 15px;
 }
-.pagina-de-contacto .formulario-contacto {
+.pagina-de-contacto .envianos-un-mensaje {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 15px;
 }
-.pagina-de-contacto .formulario-contacto .name-email-message {
+.pagina-de-contacto .envianos-un-mensaje .name-email-message {
   font-family: arial;
   color: black;
-  font-size: large;
-}
-.pagina-de-contacto .formulario-contacto input {
-  width: 50%;
+  font-size: medium;
 }
 
 .como-comprar .titulo-como-comprar {
@@ -367,7 +368,7 @@ footer .logo-via-cargo {
     font-size: 15px;
   }
   form {
-    padding: 15px 15px;
+    padding: 15px;
     margin: 15px;
     align-items: center;
     text-align: center;
@@ -381,14 +382,26 @@ footer .logo-via-cargo {
   .titulo-formulario {
     font-size: 15px;
   }
-  .contacto {
+  .pagina-de-contacto .contacto {
     font-size: 25px;
   }
   .pagina-de-contacto .crea-tu-cuenta {
     font-size: 15px;
   }
-  .whatsapp {
+  .pagina-de-contacto .whatsapp {
     font-size: 10px;
+  }
+  .pagina-de-contacto .envianos-un-mensaje {
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+  }
+  .pagina-de-contacto .envianos-un-mensaje .name-email-message {
+    font-size: 15px;
+  }
+  .pagina-de-contacto .envianos-un-mensaje input {
+    width: 60%;
   }
 }
 form {
@@ -470,7 +483,7 @@ form input {
   background-image: linear-gradient(to right, rgb(32, 142, 32), rgb(113, 113, 230));
 }
 
-.formulario-contacto {
+.pagina-de-contacto .envianos-un-mensaje {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -478,13 +491,10 @@ form input {
   text-align: center;
   margin: 15px;
 }
-.formulario-contacto .name-email-message {
+.pagina-de-contacto .envianos-un-mensaje .name-email-message {
   font-family: arial;
   color: black;
   font-size: medium;
-}
-.formulario-contacto input {
-  width: 50%;
 }
 
 .boton-iniciar-sesion:hover {

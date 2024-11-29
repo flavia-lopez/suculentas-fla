@@ -177,22 +177,27 @@ main {
       font-family: $font-arial;
       font-size: 15px;
     }
-    .formulario-contacto {
+    
+     //formulario de pagina de contacto//
+     
+      .envianos-un-mensaje {
       display: flex;
       flex-direction: column;
-
-        .name-email-message {
-          font-family: $font-arial;
-          color: $color-black;
-          font-size: large;
-        }
-
-        input {
-          width: 50%;
-        }
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      margin: 15px;
+    
+      .name-email-message {
+        font-family: $font-arial;
+        color: $color-black;
+        font-size: medium;
       }
     
     }
+  }
+    
+    
 
   //main de como comprar//
 
