@@ -152,12 +152,13 @@ main .foto-suculenta .macetas {
 main .foto-suculenta .quimicos-fertilizantes {
   grid-area: quimicos-fertilizantes;
 }
-main .principal-productos .titulo-productos-en-venta {
+
+.principal-productos .titulo-productos-en-venta {
   font-family: arial;
   font-weight: bolder;
   font-size: 30px;
 }
-main .principal-productos .productos-en-venta {
+.principal-productos .productos-en-venta {
   display: grid;
   border: 2px solid violet;
   margin: 70px;
@@ -166,22 +167,23 @@ main .principal-productos .productos-en-venta {
   grid-template-areas: "astrophytum-asterias mammilaria" "astrophytum-asterias mammilaria" "stenocactus astrophytum-myriostigma" "mostrar-mas-productos mostrar-mas-productos";
   gap: 35px;
 }
-main .principal-productos .productos-en-venta .astrophytum-asterias {
+.principal-productos .productos-en-venta .astrophytum-asterias {
   grid-area: "astrophytum-asterias";
 }
-main .principal-productos .productos-en-venta .mammilaria {
+.principal-productos .productos-en-venta .mammilaria {
   grid-area: "mammilaria";
 }
-main .principal-productos .productos-en-venta .stenocactus {
+.principal-productos .productos-en-venta .stenocactus {
   grid-area: "stenocactus";
 }
-main .principal-productos .productos-en-venta .astrophytum-myriostigma {
+.principal-productos .productos-en-venta .astrophytum-myriostigma {
   grid-area: "astrophytum-myriostigma";
 }
-main .principal-productos .productos-en-venta .mostrar-mas-productos {
+.principal-productos .productos-en-venta .mostrar-mas-productos {
   grid-area: "mostrar-mas-productos";
 }
-main .pagina-de-contacto .contacto {
+
+.pagina-de-contacto .contacto {
   background-color: black;
   color: lightcoral;
   font-family: arial;
@@ -189,27 +191,28 @@ main .pagina-de-contacto .contacto {
   text-align: center;
   padding: 10px 10px;
 }
-main .pagina-de-contacto .crea-tu-cuenta {
+.pagina-de-contacto .crea-tu-cuenta {
   font-family: arial;
   font-size: 20px;
 }
-main .pagina-de-contacto .Whatsapp {
+.pagina-de-contacto .Whatsapp {
   font-family: arial;
   font-size: 15px;
 }
-main .pagina-de-contacto .formulario-contacto {
+.pagina-de-contacto .formulario-contacto {
   display: flex;
   flex-direction: column;
 }
-main .pagina-de-contacto .formulario-contacto .name-email-message {
+.pagina-de-contacto .formulario-contacto .name-email-message {
   font-family: arial;
   color: black;
   font-size: large;
 }
-main .pagina-de-contacto .formulario-contacto input {
+.pagina-de-contacto .formulario-contacto input {
   width: 50%;
 }
-main .como-comprar .titulo-como-comprar {
+
+.como-comprar .titulo-como-comprar {
   background-color: black;
   color: lightcoral;
   font-family: font-arial;
@@ -219,14 +222,15 @@ main .como-comprar .titulo-como-comprar {
   margin: 10px;
   border-radius: 5px;
 }
-main .como-comprar .informacion-adicional {
+.como-comprar .informacion-adicional {
   font-size: 20px;
   font-family: arial;
 }
-main .como-comprar .contenidodecomocomprar {
+.como-comprar .contenidodecomocomprar {
   font-size: 15px;
 }
-main .iniciar-sesion .titulo-formulario {
+
+.iniciar-sesion .titulo-formulario {
   background-color: black;
   color: lightcoral;
   font-family: arial;
@@ -257,6 +261,7 @@ footer .instagram-facebook .logo-instagram {
   width: 70px;
   padding: 10px;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 footer .instagram-facebook .logo-facebook {
   width: 70px;
