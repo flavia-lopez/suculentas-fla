@@ -164,17 +164,16 @@ main .foto-suculenta .quimicos-fertilizantes {
 .principal-productos .productos-en-venta {
   display: grid;
   border: 2px solid violet;
-  margin: 60px;
+  margin: 70px;
+  padding: 50px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 150px);
   grid-template-areas: "astrophytum-asterias mammilaria" "astrophytum-asterias mammilaria" "stenocactus astrophytum-myriostigma" "mostrar-mas-productos mostrar-mas-productos";
   gap: 35px;
 }
 .principal-productos .productos-en-venta img {
-  width: 170px;
-}
-.principal-productos .productos-en-venta .mostrar-mas-productos {
-  justify-content: center;
+  width: 180px;
+  margin-bottom: 40px;
 }
 .principal-productos .productos-en-venta .astrophytum-asterias {
   grid-area: "astrophytum-asterias";
@@ -421,7 +420,7 @@ form input {
   transition: 2s;
 }
 .boton-iniciar-sesion:hover {
-  background-image: linear-gradient to right, rgb(32, 142, 32), rgb(113, 113, 230);
+  background-image: linear-gradient(to right, rgb(32, 142, 32), rgb(113, 113, 230));
 }
 
 .boton-enviar {
@@ -434,9 +433,18 @@ form input {
   transition: 2s;
 }
 .boton-enviar:hover {
-  background-image: linear-gradient to right, rgb(32, 142, 32), rgb(113, 113, 230);
+  background-image: linear-gradient(to right, rgb(32, 142, 32), rgb(113, 113, 230));
 }
 
+.productos-en-venta {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 15px;
+}
 .productos-en-venta .boton-carrito {
   background-color: green;
   font-weight: bolder;
@@ -447,7 +455,7 @@ form input {
   transition: 2s;
 }
 .productos-en-venta .boton-carrito:hover {
-  background-image: linear-gradient to right, rgb(32, 142, 32), rgb(113, 113, 230);
+  background-image: linear-gradient(to right, rgb(32, 142, 32), rgb(113, 113, 230));
 }
 .productos-en-venta .mostrar-mas-productos {
   background-color: green;
@@ -456,20 +464,27 @@ form input {
   font-size: medium;
   padding: 5px 10px;
   border-radius: 10px;
-  justify-items: center;
   transition: 2s;
 }
 .productos-en-venta .mostrar-mas-productos:hover {
-  background-image: linear-gradient to right, rgb(32, 142, 32), rgb(113, 113, 230);
+  background-image: linear-gradient(to right, rgb(32, 142, 32), rgb(113, 113, 230));
 }
 
 .formulario-contacto {
-  background-color: green;
-  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 15px;
+}
+.formulario-contacto .name-email-message {
   font-family: arial;
+  color: black;
   font-size: medium;
-  padding: 5px 10px;
-  border-radius: 10px;
+}
+.formulario-contacto input {
+  width: 50%;
 }
 
 .boton-iniciar-sesion:hover {

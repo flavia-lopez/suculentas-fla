@@ -120,7 +120,8 @@ main {
       .productos-en-venta {
         display: grid;
         border: 2px solid violet;
-        margin: 60px;
+        margin: 70px;
+        padding: 50px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 150px);
         grid-template-areas:
@@ -131,11 +132,10 @@ main {
         gap: 35px;
 
         img{
-          width: 170px;
+          width: 180px;
+          margin-bottom: 40px;
         }
-        .mostrar-mas-productos {
-          justify-content: center;
-        }
+
         .astrophytum-asterias {
           grid-area: "astrophytum-asterias";
         }
