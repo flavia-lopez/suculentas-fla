@@ -1,21 +1,22 @@
 header {
   .suculentas-fla-logo {
     display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
   }
 
   .logo-principal {
     width: 20%;
-    align-items: center;
   }
 
   .titulo-principal {
     color: rgb(6, 52, 29);
-    text-align: center;
     font-family: $font-arial;
     font-style: oblique;
     font-size: 30;
     font-weight: bold;
-    align-items: center;
   }
 
   nav {
