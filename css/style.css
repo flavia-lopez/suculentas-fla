@@ -253,6 +253,15 @@ footer .instagram-facebook {
   justify-content: space-between;
   text-align: center;
 }
+footer .instagram-facebook .logo-instagram {
+  width: 70px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+footer .instagram-facebook .logo-facebook {
+  width: 70px;
+  padding: 10px;
+}
 footer .instagram-facebook li {
   align-items: center;
   font-family: arial;
@@ -260,6 +269,7 @@ footer .instagram-facebook li {
 footer .instagram-facebook a {
   text-decoration: none;
   font-family: arial;
+  font-weight: bolder;
   font-size: 15px;
   color: black;
 }
