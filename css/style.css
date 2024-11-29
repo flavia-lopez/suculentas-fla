@@ -36,12 +36,13 @@ header .logo-principal:hover {
   transform: translateY(50px) translateX(30px);
 }
 header .titulo-principal {
+  transition: 2s;
+  text-align: center;
   color: rgb(6, 52, 29);
   font-family: arial;
   font-style: oblique;
-  font-size: 30;
+  font-size: 30px;
   font-weight: bold;
-  transition: 2s;
 }
 header .titulo-principal:hover {
   transform: scale 0.5;
@@ -64,12 +65,7 @@ header nav .links-menu li a {
   font-size: large;
   font-weight: bolder;
 }
-header .contacto {
-  font-family: arial;
-  font-size: 30px;
-}
-
-.link-iniciar-sesion {
+header .link-iniciar-sesion {
   font-family: arial;
   color: darkgreen;
   text-decoration: none;
@@ -205,12 +201,12 @@ main .pagina-de-contacto .formulario-contacto {
   display: flex;
   flex-direction: column;
 }
-main .pagina-de-contacto .formulario-contacto label .name-email-message {
+main .pagina-de-contacto .formulario-contacto .name-email-message {
   font-family: arial;
   color: black;
   font-size: large;
 }
-main .pagina-de-contacto .formulario-contacto label input {
+main .pagina-de-contacto .formulario-contacto input {
   width: 50%;
 }
 main .como-comprar .titulo-como-comprar {
@@ -245,9 +241,14 @@ footer {
   margin-top: 20px;
   padding: 10px;
 }
+footer h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+}
 footer .instagram-facebook {
   list-style: none;
-  text-decoration: none;
   padding: 15px;
   justify-content: space-between;
   text-align: center;
@@ -257,6 +258,7 @@ footer .instagram-facebook li {
   font-family: arial;
 }
 footer .instagram-facebook a {
+  text-decoration: none;
   font-family: arial;
   font-size: 15px;
   color: black;
@@ -266,12 +268,6 @@ footer .logo-mercado-pago {
 }
 footer .logo-via-cargo {
   width: 70px;
-}
-footer h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
-  font-size: 20px;
-  color: black;
 }
 
 @media only screen and (max-width: 420px) {
@@ -448,10 +444,6 @@ form input {
   font-size: medium;
   padding: 5px 10px;
   border-radius: 10px;
-  transition: 2s;
-}
-.productos-en-venta .formulario-contacto:hover {
-  background-image: linear-gradient to right, rgb(32, 142, 32), rgb(113, 113, 230);
 }
 
 .boton-iniciar-sesion:hover {

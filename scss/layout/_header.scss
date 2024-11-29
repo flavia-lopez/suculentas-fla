@@ -17,14 +17,16 @@ header {
   }
 //transform scale//
   .titulo-principal {
-    color: rgb(6, 52, 29);
-    font-family: $font-arial;
-    font-style: oblique;
-    font-size: 30;
-    font-weight: bold;
     transition: 2s;
     &:hover { transform: scale (0.5);
     } 
+    text-align: center;
+    color: rgb(6, 52, 29);
+    font-family: $font-arial;
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: bold;
+
   }
 
   nav {
@@ -45,15 +47,10 @@ header {
       }
     }
   }
-  //titulo principal de la pagina de contacto//
-  .contacto {
-    font-family: $font-arial;
-    font-size: 30px;
-  }
-}
 
 .link-iniciar-sesion {
   font-family: $font-arial;
   color: darkgreen;
   text-decoration: none;
+}
 }

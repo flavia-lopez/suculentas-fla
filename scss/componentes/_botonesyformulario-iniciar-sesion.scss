@@ -1,4 +1,4 @@
-//Boton de la pagina de inciar sesion//
+//Formulario de la pagina de inciar sesion//
 
 form{ 
   display: flex;
@@ -33,8 +33,6 @@ form{
   }
 }
 //formulario de la pagina de contacto//
-
-
 .boton-enviar {
   background-color: green;
   font-weight: bolder;
@@ -47,8 +45,8 @@ form{
     background-image: linear-gradient (to right, rgb(32, 142, 32), rgb(113, 113, 230));
 }
 }
-//Archivo Productos//
 
+//Archivo Productos//
 .productos-en-venta {
   .boton-carrito {
     background-color: green;
@@ -83,9 +81,5 @@ form{
   font-size: medium;
   padding: 5px 10px;
   border-radius: 10px;
-  transition: 2s;
-  &:hover{
-    background-image: linear-gradient (to right, rgb(32, 142, 32), rgb(113, 113, 230));
-  }
 }
   }

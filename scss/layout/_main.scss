@@ -168,20 +168,21 @@ main {
       font-family: $font-arial;
       font-size: 15px;
     }
-    .formulario-contacto{
+    .formulario-contacto {
       display: flex;
       flex-direction: column;
-      label{
-        .name-email-message{
+
+        .name-email-message {
           font-family: $font-arial;
           color: $color-black;
           font-size: large;
         }
-        input{
+
+        input {
           width: 50%;
         }
       }
-    }
+    
     }
 
   //main de como comprar//
