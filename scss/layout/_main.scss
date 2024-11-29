@@ -153,20 +153,34 @@ main {
       background-color: black;
       color: lightcoral;
       font-family:$font-arial ;
-      font-size: 20px;
+      font-size: 25px;
       text-align: center;
       padding: 10px 10px;
     }
-    }
+    
     .crea-tu-cuenta {
       font-family: $font-arial;
-      font-size: 15px;
+      font-size: 20px;
     }
     .Whatsapp {
       font-family: $font-arial;
-      font-size: small;
+      font-size: 15px;
     }
-  
+    .formulario-contacto{
+      display: flex;
+      flex-direction: column;
+      label{
+        .name-email-message{
+          font-family: $font-arial;
+          color: $color-black;
+          font-size: large;
+        }
+        input{
+          width: 50%;
+        }
+      }
+    }
+    }
 
   //main de como comprar//
 
