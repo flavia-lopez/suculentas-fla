@@ -5,6 +5,7 @@ header {
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
+
   }
 
   .logo-principal {
@@ -17,6 +18,8 @@ header {
     font-style: oblique;
     font-size: 30;
     font-weight: bold;
+    transition: 2s;
+    &:hover{transform: scale (0.5);} 
   }
 
   nav {

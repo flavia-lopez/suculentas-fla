@@ -1,6 +1,6 @@
 //Boton de la pagina de inciar sesion//
 
-form {
+form{ 
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -17,8 +17,8 @@ form {
   input {
     width: 50%;
   }
-}
 
+}
 .boton-iniciar-sesion {
   background-color: green;
   font-weight: bolder;
@@ -27,26 +27,13 @@ form {
   padding: 5px 10px;
   margin: 15px;
   border-radius: 10px;
+  transition: 2s;
+  &:hover{
+    background-image: linear-gradient (to right, rgb(32, 142, 32), rgb(113, 113, 230));
+  }
 }
 //formulario de la pagina de contacto//
-.formulario-contacto {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-  text-align: center;
-  padding: 10px 10px;
-  margin: 15px;
 
-  label {
-    font-size: large;
-    font-weight: bolder;
-    color: $color-black;
-  }
-  input {
-    width: 50%;
-  }
-}
 
 .boton-enviar {
   background-color: green;
@@ -55,8 +42,11 @@ form {
   font-size: medium;
   padding: 5px 10px;
   border-radius: 10px;
+  transition: 2s;
+  &:hover{
+    background-image: linear-gradient (to right, rgb(32, 142, 32), rgb(113, 113, 230));
 }
-
+}
 //Archivo Productos//
 
 .productos-en-venta {
@@ -67,6 +57,9 @@ form {
     font-size: medium;
     padding: 5px 10px;
     border-radius: 10px;
+    transition: 2s;
+    &:hover{
+      background-image: linear-gradient (to right, rgb(32, 142, 32), rgb(113, 113, 230));
   }
   .mostrar-mas-productos {
     background-color: green;
@@ -75,9 +68,12 @@ form {
     font-size: medium;
     padding: 5px 10px;
     border-radius: 10px;
+    transition: 2s;
+    &:hover{
+      background-image: linear-gradient (to right, rgb(32, 142, 32), rgb(113, 113, 230));
   }
 }
-
+  }
 //Archivo Pagina de Contacto//
 
 .formulario-contacto {
@@ -87,4 +83,8 @@ form {
   font-size: medium;
   padding: 5px 10px;
   border-radius: 10px;
+  transition: 2s;
+  &:hover{
+    background-image: linear-gradient (to right, rgb(32, 142, 32), rgb(113, 113, 230));}
 }
+  }
