@@ -2,7 +2,7 @@ header {
   .suculentas-fla-logo {
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
     margin: 10px;
 
@@ -10,8 +10,12 @@ header {
 
   .logo-principal {
     width: 20%;
+    transition: 2s;
+    &:hover{
+      transform: translateY(50px) translateX(30px);
+    }
   }
-
+//transform scale//
   .titulo-principal {
     color: rgb(6, 52, 29);
     font-family: $font-arial;
@@ -19,7 +23,8 @@ header {
     font-size: 30;
     font-weight: bold;
     transition: 2s;
-    &:hover{transform: scale (0.5);} 
+    &:hover { transform: scale (0.5);
+    } 
   }
 
   nav {

@@ -24,12 +24,16 @@ p {
 header .suculentas-fla-logo {
   display: flex;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 10px;
   margin: 10px;
 }
 header .logo-principal {
   width: 20%;
+  transition: 2s;
+}
+header .logo-principal:hover {
+  transform: translateY(50px) translateX(30px);
 }
 header .titulo-principal {
   color: rgb(6, 52, 29);
