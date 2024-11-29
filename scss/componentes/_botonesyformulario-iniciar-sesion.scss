@@ -53,7 +53,7 @@ form{
   width: 100%;
   align-items: center;
   text-align: center;
-  padding: 10px 10px;
+  padding: 10px;
   margin: 15px;
   
   .boton-carrito {
@@ -82,24 +82,7 @@ form{
   }
 }
   }
-//Archivo Pagina de Contacto//
 
-.pagina-de-contacto {
 
-  .envianos-un-mensaje {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-  text-align: center;
-  margin: 15px;
 
-  .name-email-message {
-    font-family: $font-arial;
-    color: $color-black;
-    font-size: medium;
-  }
-
-}
-}
   

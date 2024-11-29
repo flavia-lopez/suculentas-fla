@@ -45,7 +45,7 @@ header .titulo-principal {
   font-weight: bold;
 }
 header .titulo-principal:hover {
-  transform: scale 0.5;
+  transform: scale(0.5);
 }
 header nav .links-menu {
   display: flex;
@@ -455,7 +455,7 @@ form input {
   width: 100%;
   align-items: center;
   text-align: center;
-  padding: 10px 10px;
+  padding: 10px;
   margin: 15px;
 }
 .productos-en-venta .boton-carrito {
@@ -481,20 +481,6 @@ form input {
 }
 .productos-en-venta .mostrar-mas-productos:hover {
   background-image: linear-gradient(to right, rgb(32, 142, 32), rgb(113, 113, 230));
-}
-
-.pagina-de-contacto .envianos-un-mensaje {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-  text-align: center;
-  margin: 15px;
-}
-.pagina-de-contacto .envianos-un-mensaje .name-email-message {
-  font-family: arial;
-  color: black;
-  font-size: medium;
 }
 
 .boton-iniciar-sesion:hover {
