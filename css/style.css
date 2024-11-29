@@ -154,18 +154,27 @@ main .foto-suculenta .quimicos-fertilizantes {
 }
 
 .principal-productos .titulo-productos-en-venta {
+  background-color: black;
+  color: lightcoral;
   font-family: arial;
-  font-weight: bolder;
-  font-size: 30px;
+  font-size: 25px;
+  text-align: center;
+  padding: 25px;
 }
 .principal-productos .productos-en-venta {
   display: grid;
   border: 2px solid violet;
-  margin: 70px;
+  margin: 60px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 300px);
+  grid-template-rows: repeat(3, 150px);
   grid-template-areas: "astrophytum-asterias mammilaria" "astrophytum-asterias mammilaria" "stenocactus astrophytum-myriostigma" "mostrar-mas-productos mostrar-mas-productos";
   gap: 35px;
+}
+.principal-productos .productos-en-venta img {
+  width: 170px;
+}
+.principal-productos .productos-en-venta .mostrar-mas-productos {
+  justify-content: center;
 }
 .principal-productos .productos-en-venta .astrophytum-asterias {
   grid-area: "astrophytum-asterias";
@@ -261,7 +270,6 @@ footer .instagram-facebook .logo-instagram {
   width: 70px;
   padding: 10px;
   margin-bottom: 10px;
-  border-radius: 5px;
 }
 footer .instagram-facebook .logo-facebook {
   width: 70px;
@@ -305,11 +313,12 @@ footer .logo-via-cargo {
     text-decoration: none;
   }
   .fotos-suculentas {
-    width: 100%;
-    margin: 5px;
+    width: 30%;
+    margin: 10px;
     grid-template-columns: 1fr;
     grid-template-rows: 300px;
     grid-auto-rows: 300px;
+    grid-template-areas: "cactus" "suculenta" "planta-de-interior" "macetas" "quimicos-fertilizantes";
   }
   .logo-mercado-pago {
     width: 30%;
@@ -440,19 +449,21 @@ form input {
 .productos-en-venta .boton-carrito:hover {
   background-image: linear-gradient to right, rgb(32, 142, 32), rgb(113, 113, 230);
 }
-.productos-en-venta .boton-carrito .mostrar-mas-productos {
+.productos-en-venta .mostrar-mas-productos {
   background-color: green;
   font-weight: bolder;
   font-family: arial;
   font-size: medium;
   padding: 5px 10px;
   border-radius: 10px;
+  justify-items: center;
   transition: 2s;
 }
-.productos-en-venta .boton-carrito .mostrar-mas-productos:hover {
+.productos-en-venta .mostrar-mas-productos:hover {
   background-image: linear-gradient to right, rgb(32, 142, 32), rgb(113, 113, 230);
 }
-.productos-en-venta .formulario-contacto {
+
+.formulario-contacto {
   background-color: green;
   font-weight: bolder;
   font-family: arial;

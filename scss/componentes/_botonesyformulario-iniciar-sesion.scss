@@ -59,6 +59,7 @@ form{
     &:hover{
       background-image: linear-gradient (to right, rgb(32, 142, 32), rgb(113, 113, 230));
   }
+}
   .mostrar-mas-productos {
     background-color: green;
     font-weight: bolder;
@@ -66,8 +67,11 @@ form{
     font-size: medium;
     padding: 5px 10px;
     border-radius: 10px;
+    justify-items: center;
+
+
     transition: 2s;
-    &:hover{
+    &:hover {
       background-image: linear-gradient (to right, rgb(32, 142, 32), rgb(113, 113, 230));
   }
 }
@@ -82,4 +86,4 @@ form{
   padding: 5px 10px;
   border-radius: 10px;
 }
-  }
+  

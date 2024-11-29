@@ -109,17 +109,20 @@ main {
 
     .principal-productos {
       .titulo-productos-en-venta {
-        font-family: $font-arial;
-        font-weight: bolder;
-        font-size: 30px;
+        background-color: black;
+        color: lightcoral;
+        font-family:$font-arial;
+        font-size: 25px;
+        text-align: center;
+        padding: 25px;
       }
     
       .productos-en-venta {
         display: grid;
         border: 2px solid violet;
-        margin: 70px;
+        margin: 60px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 300px);
+        grid-template-rows: repeat(3, 150px);
         grid-template-areas:
           "astrophytum-asterias mammilaria"
           "astrophytum-asterias mammilaria"
@@ -127,6 +130,12 @@ main {
           "mostrar-mas-productos mostrar-mas-productos";
         gap: 35px;
 
+        img{
+          width: 170px;
+        }
+        .mostrar-mas-productos {
+          justify-content: center;
+        }
         .astrophytum-asterias {
           grid-area: "astrophytum-asterias";
         }
