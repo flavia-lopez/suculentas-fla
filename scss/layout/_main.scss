@@ -161,7 +161,7 @@ main {
 
     //main de pagina de contacto//
     .pagina-de-contacto {
-    .contacto{
+    .contacto {
       background-color: black;
       color: lightcoral;
       font-family:$font-arial;
@@ -180,23 +180,27 @@ main {
     }
     
      //formulario de pagina de contacto//
-    .envianos-un-mensaje {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      align-items: center;
-      text-align: center;
-      margin: 15px;
-    
-    .name-email-message {
-      font-family: $font-arial;
-      color: $color-black;
-      font-size: medium;
+     section{
+      div{
+        .envianos-un-mensaje{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          align-items: center;
+          text-align: center;
+          margin: 15px;
+        
+        label {
+          font-family: $font-arial;
+          color: $color-black;
+          font-size: medium;
+          }
+        
+        }
       }
-    
+     }
+  
     }
-  }
-    
     //main de como comprar//
 
   .como-comprar {
@@ -233,4 +237,3 @@ main {
     }
     
 }
-

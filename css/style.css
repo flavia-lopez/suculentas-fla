@@ -207,7 +207,7 @@ main .foto-suculenta .quimicos-fertilizantes {
   font-family: arial;
   font-size: 15px;
 }
-.pagina-de-contacto .envianos-un-mensaje {
+.pagina-de-contacto section div .envianos-un-mensaje {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -215,7 +215,7 @@ main .foto-suculenta .quimicos-fertilizantes {
   text-align: center;
   margin: 15px;
 }
-.pagina-de-contacto .envianos-un-mensaje .name-email-message {
+.pagina-de-contacto section div .envianos-un-mensaje label {
   font-family: arial;
   color: black;
   font-size: medium;
@@ -300,6 +300,8 @@ footer .logo-via-cargo {
     text-decoration: none;
     text-align: center;
     padding: 5px;
+  }
+  header nav li a {
     font-size: 15px;
   }
   main .titulo-principal {
@@ -415,7 +417,7 @@ footer .logo-via-cargo {
     width: 60%;
   }
 }
-form {
+.formulario-iniciar-sesion {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -424,12 +426,12 @@ form {
   padding: 10px 10px;
   margin: 15px;
 }
-form label {
+.formulario-iniciar-sesion label {
   font-size: large;
   font-weight: bolder;
   color: black;
 }
-form input {
+.formulario-iniciar-sesion input {
   width: 50%;
 }
 
