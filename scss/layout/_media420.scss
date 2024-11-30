@@ -70,7 +70,7 @@ footer{
 .principal-productos {
 
   .titulo-productos-en-venta {
-    font-size: 10px;
+    font-size: 15px;
   }
   .productos-en-venta {
     width: 50%;
@@ -105,18 +105,26 @@ footer{
 
   //footer//
   footer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    padding: 10px;
 
-    ul .instagram-facebook {
-      li {
+  .instagram-facebook {
+
+  
+  .logo-instagram {
+    width: 50px;
+  }
+  
+  .logo-facebook {
+    width: 50px;
+  }
+      li {  
+        font-size: 15px;
+      }
         a {
-          padding: 20px;
+          font-size: 15px;
         }
       }
-    }
+    
+  
 
     .logo-mercado-pago {
       width: 50px;
@@ -153,7 +161,7 @@ footer{
 
   .pagina-de-contacto {
     .contacto {
-      font-size: 25px;
+      font-size: 15px;
     }
     .crea-tu-cuenta {
       font-size: 15px;

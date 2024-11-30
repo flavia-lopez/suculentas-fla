@@ -335,7 +335,7 @@ footer .logo-via-cargo {
     text-align: center;
   }
   .principal-productos .titulo-productos-en-venta {
-    font-size: 10px;
+    font-size: 15px;
   }
   .principal-productos .productos-en-venta {
     width: 50%;
@@ -357,14 +357,17 @@ footer .logo-via-cargo {
   .como-comprar .contenidodecomocomprar {
     font-size: 10px;
   }
-  footer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    padding: 10px;
+  footer .instagram-facebook .logo-instagram {
+    width: 50px;
   }
-  footer ul .instagram-facebook li a {
-    padding: 20px;
+  footer .instagram-facebook .logo-facebook {
+    width: 50px;
+  }
+  footer .instagram-facebook li {
+    font-size: 15px;
+  }
+  footer .instagram-facebook a {
+    font-size: 15px;
   }
   footer .logo-mercado-pago {
     width: 50px;
@@ -391,7 +394,7 @@ footer .logo-via-cargo {
     font-size: 15px;
   }
   .pagina-de-contacto .contacto {
-    font-size: 25px;
+    font-size: 15px;
   }
   .pagina-de-contacto .crea-tu-cuenta {
     font-size: 15px;
