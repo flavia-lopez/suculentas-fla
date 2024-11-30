@@ -351,6 +351,12 @@ footer .logo-via-cargo {
     grid-auto-rows: 300px;
     grid-template-areas: "astrophytum-asterias" "mammilaria" "stenocactus" "astrophytum-myriostigma" "mostrar-mas-productos";
   }
+  .principal-productos .boton-carrito {
+    font-size: small;
+  }
+  .principal-productos .mostrar-mas-productos {
+    font-size: small;
+  }
   .como-comprar {
     font-size: 20px;
     text-align: center;
@@ -383,12 +389,6 @@ footer .logo-via-cargo {
   footer h3 {
     font-size: 15px;
   }
-  form {
-    padding: 15px;
-    margin: 15px;
-    align-items: center;
-    text-align: center;
-  }
   form label {
     font-size: 15px;
   }
@@ -397,6 +397,9 @@ footer .logo-via-cargo {
   }
   .titulo-formulario {
     font-size: 15px;
+  }
+  .boton-iniciar-sesion {
+    font-size: small;
   }
   .pagina-de-contacto .contacto {
     font-size: 15px;
@@ -407,17 +410,14 @@ footer .logo-via-cargo {
   .pagina-de-contacto .whatsapp {
     font-size: 10px;
   }
-  .pagina-de-contacto .envianos-un-mensaje {
-    padding: 15px;
-    margin: 15px;
-    align-items: center;
-    text-align: center;
+  .pagina-de-contacto section div .envianos-un-mensaje .name-email-message {
+    font-size: 10px;
   }
-  .pagina-de-contacto .envianos-un-mensaje .name-email-message {
-    font-size: 15px;
-  }
-  .pagina-de-contacto .envianos-un-mensaje input {
+  .pagina-de-contacto section div .envianos-un-mensaje input {
     width: 60%;
+  }
+  .pagina-de-contacto section div .envianos-un-mensaje .boton-enviar {
+    font-size: small;
   }
 }
 .formulario-iniciar-sesion {

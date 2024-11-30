@@ -91,6 +91,12 @@ footer{
       "astrophytum-myriostigma"
       "mostrar-mas-productos";
   }
+  .boton-carrito{
+    font-size: small;
+  }
+  .mostrar-mas-productos{
+    font-size: small;
+  }
 }
 
   //Archivo Cómo comprar//
@@ -145,10 +151,6 @@ footer{
   //Archivo iniciar-sesion//
 
   form {
-    padding: 15px;
-    margin: 15px;
-    align-items: center;
-    text-align: center;
 
     label {
       font-size: 15px;
@@ -160,6 +162,10 @@ footer{
   //titulo login//
   .titulo-formulario {
     font-size: 15px;
+  }
+
+  .boton-iniciar-sesion{
+    font-size: small;
   }
 
   //Archivo Pagina de Contacto//
@@ -175,17 +181,22 @@ footer{
   .whatsapp {
     font-size: 10px;
   }
-  .envianos-un-mensaje {
-    padding: 15px;
-    margin: 15px;
-    align-items: center;
-    text-align: center;
+ //Formulario de la pagina de contacto//
+  section{
+    div{
+      .envianos-un-mensaje {
   
-    .name-email-message {
-    font-size: 15px;
-    }
-    input {
-      width: 60%;
+  
+        .name-email-message {
+        font-size: 10px;
+        }
+        input {
+          width: 60%;
+        }
+        .boton-enviar{
+          font-size: small;
+        }
+      } 
     }
   }
 }
