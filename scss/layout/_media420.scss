@@ -1,6 +1,6 @@
 @media only screen and (max-width: 420px) {
   //links menu en el index//
-
+header{
   nav {
     .links-menu {
       flex-direction: column;
@@ -11,6 +11,8 @@
       font-size: 15px;
     }
   }
+}
+
   //main de index//
 main{
   .titulo-principal{
@@ -47,9 +49,8 @@ main{
   }
 }
 
-
-
-  //footer//
+//footer//
+footer{
   .logo-mercado-pago {
     width: 30%;
   }
@@ -62,8 +63,12 @@ main{
     text-align: center;
   }
 
+}
+
   //Archivo productos//
-.prinicpal-productos{
+
+.principal-productos {
+
   .titulo-productos-en-venta {
     font-size: 10px;
   }

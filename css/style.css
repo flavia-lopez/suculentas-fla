@@ -203,7 +203,7 @@ main .foto-suculenta .quimicos-fertilizantes {
   font-family: arial;
   font-size: 20px;
 }
-.pagina-de-contacto .Whatsapp {
+.pagina-de-contacto .whatsapp {
   font-family: arial;
   font-size: 15px;
 }
@@ -294,7 +294,7 @@ footer .logo-via-cargo {
 }
 
 @media only screen and (max-width: 420px) {
-  nav .links-menu {
+  header nav .links-menu {
     flex-direction: column;
     list-style: none;
     text-decoration: none;
@@ -324,20 +324,20 @@ footer .logo-via-cargo {
     grid-auto-rows: 300px;
     grid-template-areas: "cactus" "suculenta" "planta-de-interior" "macetas" "quimicos-fertilizantes";
   }
-  .logo-mercado-pago {
+  footer .logo-mercado-pago {
     width: 30%;
   }
-  .logo-via-cargo {
+  footer .logo-via-cargo {
     width: 30%;
   }
-  h3 {
+  footer h3 {
     font-size: 10px;
     text-align: center;
   }
-  .prinicpal-productos .titulo-productos-en-venta {
+  .principal-productos .titulo-productos-en-venta {
     font-size: 10px;
   }
-  .prinicpal-productos .productos-en-venta {
+  .principal-productos .productos-en-venta {
     width: 50%;
     margin: 10px;
     flex-wrap: wrap;

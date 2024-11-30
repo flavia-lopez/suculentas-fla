@@ -106,8 +106,9 @@ main {
 }
     //Pagina Productos//
     //Aplico grid a la pagina de productos//
-
+    //main productos//
     .principal-productos {
+
       .titulo-productos-en-venta {
         background-color: black;
         color: lightcoral;
@@ -173,14 +174,13 @@ main {
       font-family: $font-arial;
       font-size: 20px;
     }
-    .Whatsapp {
+    .whatsapp {
       font-family: $font-arial;
       font-size: 15px;
     }
     
      //formulario de pagina de contacto//
-     
-      .envianos-un-mensaje {
+    .envianos-un-mensaje {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -188,18 +188,16 @@ main {
       text-align: center;
       margin: 15px;
     
-      .name-email-message {
-        font-family: $font-arial;
-        color: $color-black;
-        font-size: medium;
+    .name-email-message {
+      font-family: $font-arial;
+      color: $color-black;
+      font-size: medium;
       }
     
     }
   }
     
-    
-
-  //main de como comprar//
+    //main de como comprar//
 
   .como-comprar {
     .titulo-como-comprar{
