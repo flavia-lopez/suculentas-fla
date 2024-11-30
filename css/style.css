@@ -215,10 +215,13 @@ main .foto-suculenta .quimicos-fertilizantes {
   text-align: center;
   margin: 15px;
 }
-.pagina-de-contacto section div .envianos-un-mensaje label {
-  font-family: arial;
+.pagina-de-contacto section div .envianos-un-mensaje .name-email-message {
+  font-size: large;
+  font-weight: bolder;
   color: black;
-  font-size: medium;
+}
+.pagina-de-contacto section div .envianos-un-mensaje input {
+  width: 50%;
 }
 
 .como-comprar .titulo-como-comprar {
@@ -455,6 +458,7 @@ footer .logo-via-cargo {
   font-family: arial;
   font-size: medium;
   padding: 5px 10px;
+  margin-top: 10px;
   border-radius: 10px;
   transition: 2s;
 }

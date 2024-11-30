@@ -190,12 +190,14 @@ main {
           text-align: center;
           margin: 15px;
         
-        label {
-          font-family: $font-arial;
+        .name-email-message {
+          font-size: large;
+          font-weight: bolder;
           color: $color-black;
-          font-size: medium;
           }
-        
+        input{
+          width: 50%;
+        }
         }
       }
      }
