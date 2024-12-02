@@ -297,30 +297,27 @@ footer .logo-via-cargo {
 }
 
 @media only screen and (max-width: 420px) {
+  header .suculentas-fla-logo .titulo-principal {
+    font-size: 20px;
+  }
   header nav .links-menu {
+    display: flex;
     flex-direction: column;
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
-    padding: 5px;
   }
   header nav li a {
     font-size: 15px;
   }
-  main .titulo-principal {
-    font-size: 15px;
-  }
-  main .promocion-1 bg-dark bg-gradient, main section h2 .titulo-promociones .parrafo-promociones bg-dark bg-gradient, section h2 .titulo-promociones main .parrafo-promociones bg-dark bg-gradient, main section #cactus-id bg-dark bg-gradient, section main #cactus-id bg-dark bg-gradient, main section h3 bg-dark bg-gradient, section main h3 bg-dark bg-gradient {
+  .archivo-principal .promocion-1 bg-dark bg-gradient, .archivo-principal section h2 .titulo-promociones .parrafo-promociones bg-dark bg-gradient, section h2 .titulo-promociones .archivo-principal .parrafo-promociones bg-dark bg-gradient, .archivo-principal section #cactus-id bg-dark bg-gradient, section .archivo-principal #cactus-id bg-dark bg-gradient, .archivo-principal section h3 bg-dark bg-gradient, section .archivo-principal h3 bg-dark bg-gradient {
     text-align: center;
     font-size: 15px;
   }
-  main .lista-plantas {
+  .archivo-principal .lista-plantas {
     display: flex;
     flex-direction: column;
     list-style: none;
     text-decoration: none;
   }
-  main .foto-suculenta {
+  .archivo-principal .foto-suculenta {
     width: 50%;
     margin: 10px;
     flex-wrap: wrap;
@@ -357,13 +354,8 @@ footer .logo-via-cargo {
   .principal-productos .mostrar-mas-productos {
     font-size: small;
   }
-  .como-comprar {
-    font-size: 20px;
-    text-align: center;
-    padding: 15px 15px;
-  }
-  .como-comprar .informacion-adicional {
-    font-size: 10px;
+  .como-comprar .titulo-como-comprar {
+    font-size: 15px;
   }
   .como-comprar .contenidodecomocomprar {
     font-size: 10px;
@@ -389,16 +381,16 @@ footer .logo-via-cargo {
   footer h3 {
     font-size: 15px;
   }
-  form label {
+  .iniciar-sesion .titulo-formulario {
     font-size: 15px;
   }
-  form input {
-    width: 60%;
-  }
-  .titulo-formulario {
+  .iniciar-sesion section div .formulario-iniciar-sesion label {
     font-size: 15px;
   }
-  .boton-iniciar-sesion {
+  .iniciar-sesion section div .formulario-iniciar-sesion input {
+    width: 50%;
+  }
+  .iniciar-sesion section div .boton-iniciar-sesion {
     font-size: small;
   }
   .pagina-de-contacto .contacto {
@@ -408,10 +400,10 @@ footer .logo-via-cargo {
     font-size: 15px;
   }
   .pagina-de-contacto .whatsapp {
-    font-size: 10px;
+    font-size: 15px;
   }
   .pagina-de-contacto section div .envianos-un-mensaje .name-email-message {
-    font-size: 10px;
+    font-size: 15px;
   }
   .pagina-de-contacto section div .envianos-un-mensaje input {
     width: 60%;

@@ -1,16 +1,21 @@
 @media only screen and (max-width: 420px) {
   //links menu en el index//
-header{
+header {
+  .suculentas-fla-logo {
+
+  .titulo-principal {
+      font-size: 20px;
+    }
+  
+  }
   nav {
     .links-menu {
+      display: flex;
       flex-direction: column;
-      list-style: none;
-      text-decoration: none;
-      text-align: center;
-      padding: 5px;
     }
-    li{
-      a{
+    
+    li {
+      a {
         font-size: 15px;
       }
       
@@ -19,10 +24,7 @@ header{
 }
 
   //main de index//
-main{
-  .titulo-principal{
-    font-size: 15px;
-  }
+.archivo-principal {
 
   .promocion-1 bg-dark bg-gradient {
     text-align: center;
@@ -102,13 +104,10 @@ footer{
   //Archivo Cómo comprar//
 
   .como-comprar {
-    font-size: 20px;
-    text-align: center;
-    padding: 15px 15px;
-
-    .informacion-adicional {
-      font-size: 10px;
+    .titulo-como-comprar{
+      font-size: 15px;
     }
+    
     .contenidodecomocomprar {
       font-size: 10px;
     }
@@ -149,24 +148,32 @@ footer{
     }
   }
   //Archivo iniciar-sesion//
-
-  form {
-
-    label {
+  .iniciar-sesion {
+    .titulo-formulario {
       font-size: 15px;
     }
-    input {
-      width: 60%;
-    }
-  }
-  //titulo login//
-  .titulo-formulario {
-    font-size: 15px;
-  }
+  
+    //formulario iniciar sesion//
 
-  .boton-iniciar-sesion{
-    font-size: small;
-  }
+    section {
+      div {
+        .formulario-iniciar-sesion { 
+          label {
+            font-size: 15px;
+          }
+          input {
+            width: 50%;
+          }
+        
+        }
+        .boton-iniciar-sesion {
+          font-size: small;
+        }
+      }
+    }
+
+
+}
 
   //Archivo Pagina de Contacto//
 
@@ -179,8 +186,9 @@ footer{
     }
   
   .whatsapp {
-    font-size: 10px;
+    font-size: 15px;
   }
+
  //Formulario de la pagina de contacto//
   section{
     div{
@@ -188,7 +196,7 @@ footer{
   
   
         .name-email-message {
-        font-size: 10px;
+        font-size: 15px;
         }
         input {
           width: 60%;
