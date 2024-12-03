@@ -41,7 +41,7 @@ header {
    //grid 1 foto-suculentas//
 
   .foto-suculenta {
-    width: 50%;
+    width: 90%;
     margin: 10px;
     flex-wrap: wrap;
     grid-template-columns: 1fr;
@@ -157,12 +157,17 @@ footer{
 
     section {
       div {
+        display: flex;
+        justify-content: center;
+
         .formulario-iniciar-sesion { 
+          width: 90%;
+
           label {
             font-size: 15px;
           }
           input {
-            width: 50%;
+            width: 90%;
           }
         
         }
@@ -190,8 +195,11 @@ footer{
   }
 
  //Formulario de la pagina de contacto//
-  section{
-    div{
+  section {
+    div {
+      display: flex;
+      justify-content: center;
+
       .envianos-un-mensaje {
   
   

@@ -318,7 +318,7 @@ footer .logo-via-cargo {
     text-decoration: none;
   }
   .archivo-principal .foto-suculenta {
-    width: 50%;
+    width: 90%;
     margin: 10px;
     flex-wrap: wrap;
     grid-template-columns: 1fr;
@@ -384,11 +384,18 @@ footer .logo-via-cargo {
   .iniciar-sesion .titulo-formulario {
     font-size: 15px;
   }
+  .iniciar-sesion section div {
+    display: flex;
+    justify-content: center;
+  }
+  .iniciar-sesion section div .formulario-iniciar-sesion {
+    width: 90%;
+  }
   .iniciar-sesion section div .formulario-iniciar-sesion label {
     font-size: 15px;
   }
   .iniciar-sesion section div .formulario-iniciar-sesion input {
-    width: 50%;
+    width: 90%;
   }
   .iniciar-sesion section div .boton-iniciar-sesion {
     font-size: small;
@@ -401,6 +408,10 @@ footer .logo-via-cargo {
   }
   .pagina-de-contacto .whatsapp {
     font-size: 15px;
+  }
+  .pagina-de-contacto section div {
+    display: flex;
+    justify-content: center;
   }
   .pagina-de-contacto section div .envianos-un-mensaje .name-email-message {
     font-size: 15px;
