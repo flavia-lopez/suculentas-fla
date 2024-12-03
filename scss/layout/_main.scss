@@ -10,7 +10,9 @@ main {
     margin: 5px;
     padding: 10px;
     transition: 2s;
-    &:hover {transform: scale (0.5);} 
+    &:hover {
+      transform: scale (0.5);
+    }
   }
 
   span {
@@ -19,19 +21,18 @@ main {
     text-decoration: underline;
   }
 
-   .lista-plantas  {
-      display: flex;
-      list-style: none;
-      text-decoration: none;
-      justify-content: space-between;
-      margin: 15px;
-      padding: 15px;
-      font-family: $font-arial;
-      font-size: 15px;
-      color: $color-black;
-      font-weight: bolder;
-    }
-  
+  .lista-plantas {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px;
+    font-family: $font-arial;
+    font-size: 15px;
+    color: $color-black;
+    font-weight: bolder;
+  }
 
   section {
     .parrafo-promociones {
@@ -43,12 +44,11 @@ main {
       margin: 5px;
       padding: 10px;
     }
-    .titulo-promociones{
+    .titulo-promociones {
       font-family: $font-arial;
       font-size: 20px;
       font-weight: bolder;
-      color: rgb(4, 31, 4)
-      
+      color: rgb(4, 31, 4);
     }
   }
   //grid en las fotos de la pagina principal//
@@ -100,123 +100,136 @@ main {
     .quimicos-fertilizantes {
       grid-area: quimicos-fertilizantes;
     }
+  }
+}
+//Pagina Productos//
+//Aplico grid a la pagina de productos//
+//main productos//
+.principal-productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin: 15px;
 
+  .titulo-productos-en-venta {
+    background-color: black;
+    color: lightcoral;
+    font-family: $font-arial;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
   }
 
+  .productos-en-venta {
+    display: grid;
+    border: 2px solid violet;
+    margin: 70px;
+    padding: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 160px);
+    grid-template-areas:
+      "astrophytum-asterias mammilaria"
+      "stenocactus astrophytum-myriostigma"
+      "mostrar-mas-productos mostrar-mas-productos";
+    gap: 35px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    img {
+      width: 180px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+
+    .astrophytum-asterias {
+      grid-area: astrophytum-asterias;
+    }
+
+    .mammilaria {
+      grid-area: mammilaria;
+    }
+
+    .stenocactus {
+      grid-area: stenocactus;
+    }
+
+    .astrophytum-myriostigma {
+      grid-area: astrophytum-myriostigma;
+    }
+
+    .mostrar-mas-productos {
+      grid-area: mostrar-mas-productos;
+    }
+  }
 }
-    //Pagina Productos//
-    //Aplico grid a la pagina de productos//
-    //main productos//
-    .principal-productos {
 
-      .titulo-productos-en-venta {
-        background-color: black;
-        color: lightcoral;
-        font-family:$font-arial;
-        font-size: 25px;
+//main de pagina de contacto//
+.pagina-de-contacto {
+  .contacto {
+    background-color: black;
+    color: lightcoral;
+    font-family: $font-arial;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 10px;
+  }
+
+  .crea-tu-cuenta {
+    font-family: $font-arial;
+    font-size: 20px;
+  }
+  .whatsapp {
+    font-family: $font-arial;
+    font-size: 15px;
+  }
+
+  //formulario de pagina de contacto//
+  section {
+    div {
+      .envianos-un-mensaje {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
         text-align: center;
-        padding: 25px;
-      }
-    
-      .productos-en-venta {
-        display: grid;
-        border: 2px solid violet;
-        margin: 70px;
-        padding: 50px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 150px);
-        grid-template-areas:
-          "astrophytum-asterias mammilaria"
-          "astrophytum-asterias mammilaria"
-          "stenocactus astrophytum-myriostigma"
-          "mostrar-mas-productos mostrar-mas-productos";
-        gap: 35px;
+        margin: 15px;
 
-        img{
-          width: 180px;
-          margin-bottom: 40px;
-        }
-
-        .astrophytum-asterias {
-          grid-area: "astrophytum-asterias";
-        }
-
-        .mammilaria {
-          grid-area: "mammilaria";
-        }
-
-        .stenocactus {
-          grid-area: "stenocactus";
-        }
-
-        .astrophytum-myriostigma {
-          grid-area: "astrophytum-myriostigma";
-        }
-
-        .mostrar-mas-productos {
-          grid-area: "mostrar-mas-productos";
-        }
-      }
-    }
-
-    //main de pagina de contacto//
-    .pagina-de-contacto {
-    .contacto {
-      background-color: black;
-      color: lightcoral;
-      font-family:$font-arial;
-      font-size: 25px;
-      text-align: center;
-      padding: 10px 10px;
-    }
-    
-    .crea-tu-cuenta {
-      font-family: $font-arial;
-      font-size: 20px;
-    }
-    .whatsapp {
-      font-family: $font-arial;
-      font-size: 15px;
-    }
-    
-     //formulario de pagina de contacto//
-     section{
-      div{
-        .envianos-un-mensaje{
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-          align-items: center;
-          text-align: center;
-          margin: 15px;
-        
         .name-email-message {
           font-size: large;
           font-weight: bolder;
           color: $color-black;
-          }
-        input{
           width: 50%;
         }
+        input {
+          width: 50%;
+          &[type="submit"] {
+            width: 25%;
+          }
         }
       }
-     }
-  
     }
-    //main de como comprar//
+  }
+  //main de como comprar//
 
   .como-comprar {
-    .titulo-como-comprar{
+    .titulo-como-comprar {
       background-color: black;
       color: lightcoral;
       font-family: font-arial;
-      font-size:25px ;
+      font-size: 25px;
       text-align: center;
       padding: 10px;
       margin: 10px;
       border-radius: 5px;
     }
-
 
     .informacion-adicional {
       font-size: 20px;
@@ -228,7 +241,7 @@ main {
   }
 
   //main de iniciar sesion//
-.iniciar-sesion {
+  .iniciar-sesion {
     .titulo-formulario {
       background-color: black;
       color: lightcoral;
@@ -237,5 +250,5 @@ main {
       text-align: center;
       padding: 10px 10px;
     }
-    
+  }
 }

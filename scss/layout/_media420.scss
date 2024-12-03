@@ -1,113 +1,108 @@
 @media only screen and (max-width: 420px) {
   //links menu en el index//
-header {
-  .suculentas-fla-logo {
-
-  .titulo-principal {
-      font-size: 20px;
-    }
-  
-  }
-  nav {
-    .links-menu {
-      display: flex;
-      flex-direction: column;
-    }
-    
-    li {
-      a {
-        font-size: 15px;
+  header {
+    .suculentas-fla-logo {
+      .titulo-principal {
+        font-size: 20px;
       }
-      
+    }
+    nav {
+      .links-menu {
+        display: flex;
+        flex-direction: column;
+      }
+
+      li {
+        a {
+          font-size: 15px;
+        }
+      }
     }
   }
-}
 
   //main de index//
-.archivo-principal {
-
-  .promocion-1 bg-dark bg-gradient {
-    text-align: center;
-    font-size: 15px;
-  }
+  .archivo-principal {
+    .promocion-1 bg-dark bg-gradient {
+      text-align: center;
+      font-size: 15px;
+    }
 
     .lista-plantas {
-      display:flex;
+      display: flex;
       flex-direction: column;
       list-style: none;
       text-decoration: none;
     }
 
-   //grid 1 foto-suculentas//
+    //grid 1 foto-suculentas//
 
-  .foto-suculenta {
-    width: 90%;
-    margin: 10px;
-    flex-wrap: wrap;
-    grid-template-columns: 1fr;
-    grid-template-rows:300px ;
-    grid-auto-rows:300px ;  
-    grid-template-areas:
-    "cactus"
-    "suculenta" 
-    "planta-de-interior"
-    "macetas"
-    "quimicos-fertilizantes";
-  }
-}
-
-//footer//
-footer{
-  .logo-mercado-pago {
-    width: 30%;
-  }
-  .logo-via-cargo {
-    width: 30%;
+    .foto-suculenta {
+      width: 90%;
+      margin: 10px;
+      flex-wrap: wrap;
+      grid-template-columns: 1fr;
+      grid-template-rows: 300px;
+      grid-auto-rows: 300px;
+      grid-template-areas:
+        "cactus"
+        "suculenta"
+        "planta-de-interior"
+        "macetas"
+        "quimicos-fertilizantes";
+    }
   }
 
-  h3 {
-    font-size: 10px;
-    text-align: center;
-  }
+  //footer//
+  footer {
+    .logo-mercado-pago {
+      width: 30%;
+    }
+    .logo-via-cargo {
+      width: 30%;
+    }
 
-}
+    h3 {
+      font-size: 10px;
+      text-align: center;
+    }
+  }
 
   //Archivo productos//
 
-.principal-productos {
-
-  .titulo-productos-en-venta {
-    font-size: 15px;
+  .principal-productos {
+    .titulo-productos-en-venta {
+      font-size: 15px;
+    }
+    .productos-en-venta {
+      padding: 10px;
+      width: 90%;
+      margin: 0px;
+      flex-wrap: wrap;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat (3, minmax(150px, 1fr));
+      grid-auto-rows: 300px;
+      grid-template-areas:
+        "astrophytum-asterias"
+        "mammilaria"
+        "stenocactus"
+        "astrophytum-myriostigma"
+        "mostrar-mas-productos";
+    }
+    .boton-carrito {
+      font-size: small;
+    }
+    .mostrar-mas-productos {
+      font-size: small;
+    }
   }
-  .productos-en-venta {
-    width: 50%;
-    margin: 10px;
-    flex-wrap: wrap;
-    grid-template-columns: 1fr;
-    grid-template-rows: 300px;
-    grid-auto-rows: 300px;
-    grid-template-areas:
-      "astrophytum-asterias"
-      "mammilaria"
-      "stenocactus"
-      "astrophytum-myriostigma"
-      "mostrar-mas-productos";
-  }
-  .boton-carrito{
-    font-size: small;
-  }
-  .mostrar-mas-productos{
-    font-size: small;
-  }
-}
 
   //Archivo Cómo comprar//
 
   .como-comprar {
-    .titulo-como-comprar{
+    .titulo-como-comprar {
       font-size: 15px;
     }
-    
+
     .contenidodecomocomprar {
       font-size: 10px;
     }
@@ -115,26 +110,21 @@ footer{
 
   //footer//
   footer {
+    .instagram-facebook {
+      .logo-instagram {
+        width: 50px;
+      }
 
-  .instagram-facebook {
-
-  
-  .logo-instagram {
-    width: 50px;
-  }
-  
-  .logo-facebook {
-    width: 50px;
-  }
-      li {  
+      .logo-facebook {
+        width: 50px;
+      }
+      li {
         font-size: 15px;
       }
-        a {
-          font-size: 15px;
-        }
+      a {
+        font-size: 15px;
       }
-    
-  
+    }
 
     .logo-mercado-pago {
       width: 50px;
@@ -152,7 +142,7 @@ footer{
     .titulo-formulario {
       font-size: 15px;
     }
-  
+
     //formulario iniciar sesion//
 
     section {
@@ -160,7 +150,7 @@ footer{
         display: flex;
         justify-content: center;
 
-        .formulario-iniciar-sesion { 
+        .formulario-iniciar-sesion {
           width: 90%;
 
           label {
@@ -169,16 +159,13 @@ footer{
           input {
             width: 90%;
           }
-        
         }
         .boton-iniciar-sesion {
           font-size: small;
         }
       }
     }
-
-
-}
+  }
 
   //Archivo Pagina de Contacto//
 
@@ -189,32 +176,29 @@ footer{
     .crea-tu-cuenta {
       font-size: 15px;
     }
-  
-  .whatsapp {
-    font-size: 15px;
-  }
 
- //Formulario de la pagina de contacto//
-  section {
-    div {
-      display: flex;
-      justify-content: center;
+    .whatsapp {
+      font-size: 15px;
+    }
 
-      .envianos-un-mensaje {
-  
-  
-        .name-email-message {
-        font-size: 15px;
+    //Formulario de la pagina de contacto//
+    section {
+      div {
+        display: flex;
+        justify-content: center;
+
+        .envianos-un-mensaje {
+          .name-email-message {
+            font-size: 15px;
+          }
+          input {
+            width: 60%;
+          }
+          .boton-enviar {
+            font-size: small;
+          }
         }
-        input {
-          width: 60%;
-        }
-        .boton-enviar{
-          font-size: small;
-        }
-      } 
+      }
     }
   }
-}
-
 }

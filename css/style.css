@@ -23,19 +23,20 @@ p {
 
 header .suculentas-fla-logo {
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
   padding: 10px;
   margin: 10px;
 }
-header .logo-principal {
-  width: 20%;
+header .suculentas-fla-logo .logo-principal {
+  max-width: 20%;
+  max-height: 124%;
   transition: 2s;
 }
-header .logo-principal:hover {
+header .suculentas-fla-logo .logo-principal:hover {
   transform: translateY(50px) translateX(30px);
 }
-header .titulo-principal {
+header .suculentas-fla-logo .titulo-principal {
   transition: 2s;
   text-align: center;
   color: rgb(6, 52, 29);
@@ -44,7 +45,7 @@ header .titulo-principal {
   font-size: 30px;
   font-weight: bold;
 }
-header .titulo-principal:hover {
+header .suculentas-fla-logo .titulo-principal:hover {
   transform: scale(0.5);
 }
 header nav .links-menu {
@@ -153,6 +154,14 @@ main .foto-suculenta .quimicos-fertilizantes {
   grid-area: quimicos-fertilizantes;
 }
 
+.principal-productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin: 15px;
+}
 .principal-productos .titulo-productos-en-venta {
   background-color: black;
   color: lightcoral;
@@ -167,28 +176,36 @@ main .foto-suculenta .quimicos-fertilizantes {
   margin: 70px;
   padding: 50px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 150px);
-  grid-template-areas: "astrophytum-asterias mammilaria" "astrophytum-asterias mammilaria" "stenocactus astrophytum-myriostigma" "mostrar-mas-productos mostrar-mas-productos";
+  grid-template-rows: repeat(3, 160px);
+  grid-template-areas: "astrophytum-asterias mammilaria" "stenocactus astrophytum-myriostigma" "mostrar-mas-productos mostrar-mas-productos";
   gap: 35px;
+}
+.principal-productos .productos-en-venta div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .principal-productos .productos-en-venta img {
   width: 180px;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 .principal-productos .productos-en-venta .astrophytum-asterias {
-  grid-area: "astrophytum-asterias";
+  grid-area: astrophytum-asterias;
 }
 .principal-productos .productos-en-venta .mammilaria {
-  grid-area: "mammilaria";
+  grid-area: mammilaria;
 }
 .principal-productos .productos-en-venta .stenocactus {
-  grid-area: "stenocactus";
+  grid-area: stenocactus;
 }
 .principal-productos .productos-en-venta .astrophytum-myriostigma {
-  grid-area: "astrophytum-myriostigma";
+  grid-area: astrophytum-myriostigma;
 }
 .principal-productos .productos-en-venta .mostrar-mas-productos {
-  grid-area: "mostrar-mas-productos";
+  grid-area: mostrar-mas-productos;
 }
 
 .pagina-de-contacto .contacto {
@@ -219,12 +236,15 @@ main .foto-suculenta .quimicos-fertilizantes {
   font-size: large;
   font-weight: bolder;
   color: black;
+  width: 50%;
 }
 .pagina-de-contacto section div .envianos-un-mensaje input {
   width: 50%;
 }
-
-.como-comprar .titulo-como-comprar {
+.pagina-de-contacto section div .envianos-un-mensaje input[type=submit] {
+  width: 25%;
+}
+.pagina-de-contacto .como-comprar .titulo-como-comprar {
   background-color: black;
   color: lightcoral;
   font-family: font-arial;
@@ -234,15 +254,14 @@ main .foto-suculenta .quimicos-fertilizantes {
   margin: 10px;
   border-radius: 5px;
 }
-.como-comprar .informacion-adicional {
+.pagina-de-contacto .como-comprar .informacion-adicional {
   font-size: 20px;
   font-family: arial;
 }
-.como-comprar .contenidodecomocomprar {
+.pagina-de-contacto .como-comprar .contenidodecomocomprar {
   font-size: 15px;
 }
-
-.iniciar-sesion .titulo-formulario {
+.pagina-de-contacto .iniciar-sesion .titulo-formulario {
   background-color: black;
   color: lightcoral;
   font-family: arial;
@@ -340,11 +359,12 @@ footer .logo-via-cargo {
     font-size: 15px;
   }
   .principal-productos .productos-en-venta {
-    width: 50%;
-    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    margin: 0px;
     flex-wrap: wrap;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px;
+    grid-template-rows: repeat 3, minmax(150px, 1fr);
     grid-auto-rows: 300px;
     grid-template-areas: "astrophytum-asterias" "mammilaria" "stenocactus" "astrophytum-myriostigma" "mostrar-mas-productos";
   }
