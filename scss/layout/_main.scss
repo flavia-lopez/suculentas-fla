@@ -123,17 +123,21 @@ main {
   }
 
   .productos-en-venta {
+    width: 60%;
     display: grid;
     border: 2px solid violet;
-    margin: 70px;
+    margin: 0px;
     padding: 50px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 160px);
+    grid-template-rows: repeat(2, minmax(150px, 1fr) 50px);
     grid-template-areas:
       "astrophytum-asterias mammilaria"
       "stenocactus astrophytum-myriostigma"
       "mostrar-mas-productos mostrar-mas-productos";
     gap: 35px;
+
+    justify-items: center;
+    align-items: center;
 
     div {
       display: flex;
@@ -144,9 +148,10 @@ main {
     }
 
     img {
-      width: 180px;
+      max-width: 360px;
+      width: 100%;
       margin-bottom: 40px;
-      margin-top: 40px;
+      margin-top: 300px;
     }
 
     .astrophytum-asterias {
