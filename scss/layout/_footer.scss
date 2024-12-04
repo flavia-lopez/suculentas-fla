@@ -17,30 +17,28 @@ footer {
     justify-content: space-between;
     text-align: center;
 
-.logo-instagram{
-  width: 70px;
-  padding: 10px;
-  margin-bottom:10px;
-}
+    .logo-instagram {
+      width: 70px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
 
-.logo-facebook{
-  width: 70px;
-  padding: 10px;
-}
-    li {  
-      
+    .logo-facebook {
+      width: 70px;
+      padding: 10px;
+    }
+    li {
       align-items: center;
       font-family: $font-arial;
     }
-      a {
-        text-decoration: none;
-        font-family: $font-arial;
-        font-weight: bolder;
-        font-size: 15px;
-        color: $color-black;
-      }
+    a {
+      text-decoration: none;
+      font-family: $font-arial;
+      font-weight: bolder;
+      font-size: 15px;
+      color: $color-black;
     }
-  
+  }
 
   .logo-mercado-pago {
     width: 70px;
@@ -48,6 +46,4 @@ footer {
   .logo-via-cargo {
     width: 70px;
   }
-
-
 }
